@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>C语言 on GiteCD</title>
-        <link>http://localhost:10084/categories/c%E8%AF%AD%E8%A8%80/</link>
+        <link>http://localhost:14937/categories/c%E8%AF%AD%E8%A8%80/</link>
         <description>Recent content in C语言 on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:10084/categories/c%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:14937/categories/c%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C语言学习初阶_数组</title>
-        <link>http://localhost:10084/p/c_main001/</link>
+        <link>http://localhost:14937/p/c_main001/</link>
         <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:10084/p/c_main001/</guid>
-        <description>&lt;img src="http://localhost:10084/p/c_main001/background.png" alt="Featured image of post C语言学习初阶_数组" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>http://localhost:14937/p/c_main001/</guid>
+        <description>&lt;img src="http://localhost:14937/p/c_main001/background.png" alt="Featured image of post C语言学习初阶_数组" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;✅&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Tip&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -27,10 +27,10 @@
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;h2 id=&#34;原理&#34;&gt;原理
 &lt;/h2&gt;&lt;p&gt;我们先放置3x3的空格数组。下棋时相当于给数组赋值，并判断连续三个值是否相等来判断是否连三子，以达到三子棋的效果。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/mspaint_WRqt81ceJs.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/mspaint_WRqt81ceJs.png&#34;
 	width=&#34;247&#34;
 	height=&#34;207&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/mspaint_WRqt81ceJs_hu_4924cb65106ccbfc.png 480w, http://localhost:10084/p/c_main001/mspaint_WRqt81ceJs_hu_2fa7f569a6a704ff.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/mspaint_WRqt81ceJs_hu_4924cb65106ccbfc.png 480w, http://localhost:14937/p/c_main001/mspaint_WRqt81ceJs_hu_2fa7f569a6a704ff.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图解原理&#34;
@@ -51,10 +51,10 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;主程序-菜单&#34;&gt;主程序 菜单
 &lt;/h3&gt;&lt;p&gt;在编写此工程时，我们分别建立文件&lt;kbd&gt;头文件game.h&lt;/kbd&gt; ， &lt;kbd&gt;源文件game.c&lt;/kbd&gt; ，&lt;kbd&gt;源文件main.c&lt;/kbd&gt;。并在&lt;kbd&gt;源文件main.c&lt;/kbd&gt;和 &lt;kbd&gt;源文件game.c&lt;/kbd&gt;中调用&lt;kbd&gt;头文件game.h&lt;/kbd&gt;。如下图所示(图中仅演示main.c的包含)
-&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_mJJPHJeNdp.png&#34;
+&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_mJJPHJeNdp.png&#34;
 	width=&#34;1916&#34;
 	height=&#34;1042&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_mJJPHJeNdp_hu_47e18ece4faf46dc.png 480w, http://localhost:10084/p/c_main001/devenv_mJJPHJeNdp_hu_9338c4e8aab2cb87.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_mJJPHJeNdp_hu_47e18ece4faf46dc.png 480w, http://localhost:14937/p/c_main001/devenv_mJJPHJeNdp_hu_9338c4e8aab2cb87.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
@@ -66,10 +66,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来在在&lt;kbd&gt;源文件main.c&lt;/kbd&gt;中编写主程序和菜单函数menu();运用循环嵌套，使程序能够正常运行。由于游戏程序尚未编写，我们用打印”游戏开始“代替。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_VdZDLjRWlu.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_VdZDLjRWlu.png&#34;
 	width=&#34;1032&#34;
 	height=&#34;862&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_VdZDLjRWlu_hu_c71e3870ac437d1c.png 480w, http://localhost:10084/p/c_main001/devenv_VdZDLjRWlu_hu_ec3f6f83fe43776c.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_VdZDLjRWlu_hu_c71e3870ac437d1c.png 480w, http://localhost:14937/p/c_main001/devenv_VdZDLjRWlu_hu_ec3f6f83fe43776c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主程序&#34;
@@ -79,10 +79,10 @@
 		data-flex-grow=&#34;119&#34;
 		data-flex-basis=&#34;287px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_RrgPwcoqSj.png&#34;
+&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_RrgPwcoqSj.png&#34;
 	width=&#34;1292&#34;
 	height=&#34;401&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_RrgPwcoqSj_hu_6930630505353842.png 480w, http://localhost:10084/p/c_main001/devenv_RrgPwcoqSj_hu_868fd5d403fb9213.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_RrgPwcoqSj_hu_6930630505353842.png 480w, http://localhost:14937/p/c_main001/devenv_RrgPwcoqSj_hu_868fd5d403fb9213.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;菜单程序&#34;
@@ -97,10 +97,10 @@
 &lt;h3 id=&#34;游戏程序-初始化棋盘和棋盘显示&#34;&gt;游戏程序 初始化棋盘和棋盘显示
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;创建game函数，void类型。将上文中 &lt;kbd&gt;printf(”游戏开始“);&lt;/kbd&gt; ，替换为&lt;kbd&gt;game();&lt;/kbd&gt;函数。并在game函数中添加初始化棋盘和显示棋盘操作。
-&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_a9hKnXzcZ3.png&#34;
+&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_a9hKnXzcZ3.png&#34;
 	width=&#34;726&#34;
 	height=&#34;305&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_a9hKnXzcZ3_hu_4b5d02ffa901aeda.png 480w, http://localhost:10084/p/c_main001/devenv_a9hKnXzcZ3_hu_2919c4836b7d491d.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_a9hKnXzcZ3_hu_4b5d02ffa901aeda.png 480w, http://localhost:14937/p/c_main001/devenv_a9hKnXzcZ3_hu_2919c4836b7d491d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;头文件定义&#34;
@@ -115,10 +115,10 @@
 &lt;/ol&gt;
 &lt;p&gt;接着，我们进行初始化棋盘和棋盘显示操作。
 先在 &lt;kbd&gt;game.h&lt;/kbd&gt;  中添加以下代码，以声明函数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_MVWIAdkHmc.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_MVWIAdkHmc.png&#34;
 	width=&#34;1168&#34;
 	height=&#34;353&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_MVWIAdkHmc_hu_a1606bfef066eebd.png 480w, http://localhost:10084/p/c_main001/devenv_MVWIAdkHmc_hu_cb505ffcc7b3fc53.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_MVWIAdkHmc_hu_a1606bfef066eebd.png 480w, http://localhost:14937/p/c_main001/devenv_MVWIAdkHmc_hu_cb505ffcc7b3fc53.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;头文件定义&#34;
@@ -131,10 +131,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;然后，我们正式进入初始化棋盘和显示棋盘操作的编写。
 在&lt;kbd&gt;game.c&lt;/kbd&gt;中添加以下代码。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_YkeERT9Xo6.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_YkeERT9Xo6.png&#34;
 	width=&#34;997&#34;
 	height=&#34;447&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_YkeERT9Xo6_hu_b7d4828f758aa0b2.png 480w, http://localhost:10084/p/c_main001/devenv_YkeERT9Xo6_hu_a6407e00cf4a1273.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_YkeERT9Xo6_hu_b7d4828f758aa0b2.png 480w, http://localhost:14937/p/c_main001/devenv_YkeERT9Xo6_hu_a6407e00cf4a1273.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;3x3数组&#34;
@@ -149,7 +149,7 @@
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;ℹ️&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Note&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -158,10 +158,10 @@
     &lt;p&gt;正如&lt;kbd&gt;图解原理&lt;/kbd&gt;中展示的一样，这里生成了3x3的空格数组&lt;/p&gt;
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;p&gt;然后是打印棋盘代码，如下图所示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_bVtCxT8koS.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_bVtCxT8koS.png&#34;
 	width=&#34;799&#34;
 	height=&#34;827&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_bVtCxT8koS_hu_66ef766a44a49967.png 480w, http://localhost:10084/p/c_main001/devenv_bVtCxT8koS_hu_142e13439fb832ea.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_bVtCxT8koS_hu_66ef766a44a49967.png 480w, http://localhost:14937/p/c_main001/devenv_bVtCxT8koS_hu_142e13439fb832ea.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;棋盘生成代码&#34;
@@ -172,10 +172,10 @@
 		data-flex-basis=&#34;231px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:10084/p/c_main001/mspaint_SFyRas32Fj.png&#34;
+&lt;img src=&#34;http://localhost:14937/p/c_main001/mspaint_SFyRas32Fj.png&#34;
 	width=&#34;257&#34;
 	height=&#34;186&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/mspaint_SFyRas32Fj_hu_60367978292da15.png 480w, http://localhost:10084/p/c_main001/mspaint_SFyRas32Fj_hu_56c21d2bdc0000ba.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/mspaint_SFyRas32Fj_hu_60367978292da15.png 480w, http://localhost:14937/p/c_main001/mspaint_SFyRas32Fj_hu_56c21d2bdc0000ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;棋盘生成原理&#34;
@@ -187,10 +187,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;此时，我们就完成了初始化棋盘和棋盘显示，调试结果如下.
-&lt;img src=&#34;http://localhost:10084/p/c_main001/WindowsTerminal_5qcSDjtvM0.png&#34;
+&lt;img src=&#34;http://localhost:14937/p/c_main001/WindowsTerminal_5qcSDjtvM0.png&#34;
 	width=&#34;822&#34;
 	height=&#34;338&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_65c43bff1c93a8e1.png 480w, http://localhost:10084/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_eefaaabec6f2b91e.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_65c43bff1c93a8e1.png 480w, http://localhost:14937/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_eefaaabec6f2b91e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -204,10 +204,10 @@
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;玩家下棋&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先在头文件&lt;kbd&gt;game.h&lt;/kbd&gt;中添加玩家下棋的函数声明。（图片见上文&amp;lt;头文件定义&amp;gt;其余内容一致，仅需将变量名改为PlayerMove即可。&lt;/p&gt;
 &lt;p&gt;然后在game.c中编写程序，内容如下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_FcRtXvMl0t.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_FcRtXvMl0t.png&#34;
 	width=&#34;802&#34;
 	height=&#34;707&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_FcRtXvMl0t_hu_2ecffb326953b297.png 480w, http://localhost:10084/p/c_main001/devenv_FcRtXvMl0t_hu_a1eb01bb2d83df85.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_FcRtXvMl0t_hu_2ecffb326953b297.png 480w, http://localhost:14937/p/c_main001/devenv_FcRtXvMl0t_hu_a1eb01bb2d83df85.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -220,7 +220,7 @@
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;ℹ️&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Note&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -231,10 +231,10 @@
 &lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;电脑下棋&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先在头文件&lt;kbd&gt;game.h&lt;/kbd&gt;中添加玩家下棋的函数声明。（图片见上文&amp;lt;头文件定义&amp;gt;其余内容一致，仅需将变量名改为 ComputerMove即可。&lt;/p&gt;
 &lt;p&gt;随即我们继续在game.c中编写&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_mfXxcqpZ7S.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_mfXxcqpZ7S.png&#34;
 	width=&#34;814&#34;
 	height=&#34;523&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_mfXxcqpZ7S_hu_a448edb7f8aaf4db.png 480w, http://localhost:10084/p/c_main001/devenv_mfXxcqpZ7S_hu_f3ceee260ce93b93.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_mfXxcqpZ7S_hu_a448edb7f8aaf4db.png 480w, http://localhost:14937/p/c_main001/devenv_mfXxcqpZ7S_hu_f3ceee260ce93b93.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -249,10 +249,10 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 需要在main.c的主程序中添加srand((unsigned int) time(NULL));以实现全随机
-&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_Gz4DkdFcd5.png&#34;
+&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_Gz4DkdFcd5.png&#34;
 	width=&#34;496&#34;
 	height=&#34;77&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_Gz4DkdFcd5_hu_66a621a185210fa0.png 480w, http://localhost:10084/p/c_main001/devenv_Gz4DkdFcd5_hu_b95166f83e2b9468.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_Gz4DkdFcd5_hu_66a621a185210fa0.png 480w, http://localhost:14937/p/c_main001/devenv_Gz4DkdFcd5_hu_b95166f83e2b9468.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -260,10 +260,10 @@
 		data-flex-grow=&#34;644&#34;
 		data-flex-basis=&#34;1545px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_x1MYOLOsCj.png&#34;
+&gt; &lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_x1MYOLOsCj.png&#34;
 	width=&#34;501&#34;
 	height=&#34;219&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_x1MYOLOsCj_hu_354c578f867081a4.png 480w, http://localhost:10084/p/c_main001/devenv_x1MYOLOsCj_hu_5982ff0348db1b81.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_x1MYOLOsCj_hu_354c578f867081a4.png 480w, http://localhost:14937/p/c_main001/devenv_x1MYOLOsCj_hu_5982ff0348db1b81.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -278,7 +278,7 @@
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;ℹ️&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Note&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -292,7 +292,7 @@
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;ℹ️&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Note&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -302,10 +302,10 @@
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;p&gt;1.在game.h中声明IsWin函数&lt;/p&gt;
 &lt;p&gt;2.在game.c中编写IsWin函数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_yWupY79GV5.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_yWupY79GV5.png&#34;
 	width=&#34;922&#34;
 	height=&#34;1149&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_yWupY79GV5_hu_b4fb527a2d58e78e.png 480w, http://localhost:10084/p/c_main001/devenv_yWupY79GV5_hu_c07e732e766e6517.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_yWupY79GV5_hu_b4fb527a2d58e78e.png 480w, http://localhost:14937/p/c_main001/devenv_yWupY79GV5_hu_c07e732e766e6517.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;game.c&#34;
@@ -315,10 +315,10 @@
 		data-flex-grow=&#34;80&#34;
 		data-flex-basis=&#34;192px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_AVen1cMxxi.png&#34;
+&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_AVen1cMxxi.png&#34;
 	width=&#34;1025&#34;
 	height=&#34;817&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_AVen1cMxxi_hu_8058f37f1beac6e4.png 480w, http://localhost:10084/p/c_main001/devenv_AVen1cMxxi_hu_5831c8846d438206.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_AVen1cMxxi_hu_8058f37f1beac6e4.png 480w, http://localhost:14937/p/c_main001/devenv_AVen1cMxxi_hu_5831c8846d438206.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;game.h&#34;
@@ -333,7 +333,7 @@
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;ℹ️&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Note&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -343,10 +343,10 @@
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;h3 id=&#34;游戏程序-game函数汇集&#34;&gt;游戏程序 game函数汇集
 &lt;/h3&gt;&lt;p&gt;main.c中的game函数具体内容如下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/devenv_gYmzx7ztkN.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/devenv_gYmzx7ztkN.png&#34;
 	width=&#34;597&#34;
 	height=&#34;949&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/devenv_gYmzx7ztkN_hu_29c1b2f30a34f401.png 480w, http://localhost:10084/p/c_main001/devenv_gYmzx7ztkN_hu_165df7bd79ea1c12.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/devenv_gYmzx7ztkN_hu_29c1b2f30a34f401.png 480w, http://localhost:14937/p/c_main001/devenv_gYmzx7ztkN_hu_165df7bd79ea1c12.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;main.c中的void game&#34;
@@ -358,10 +358,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;游戏程序-调试结果&#34;&gt;游戏程序 调试结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_main001/WindowsTerminal_pJFonwsJTR.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_main001/WindowsTerminal_pJFonwsJTR.png&#34;
 	width=&#34;847&#34;
 	height=&#34;837&#34;
-	srcset=&#34;http://localhost:10084/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_acf42ee053aadc28.png 480w, http://localhost:10084/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_31e2b857261f9850.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_acf42ee053aadc28.png 480w, http://localhost:14937/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_31e2b857261f9850.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;调试结果&#34;
@@ -910,15 +910,15 @@
         </item>
         <item>
         <title>C语言学习DLC_函数递归</title>
-        <link>http://localhost:10084/p/c_extra001/</link>
+        <link>http://localhost:14937/p/c_extra001/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:10084/p/c_extra001/</guid>
-        <description>&lt;img src="http://localhost:10084/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>http://localhost:14937/p/c_extra001/</guid>
+        <description>&lt;img src="http://localhost:14937/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
-      &lt;span class=&#34;icon&#34;&gt;✅&lt;/span&gt;
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
       &lt;strong&gt;Tip&lt;/strong&gt;
     
   &lt;/div&gt;
@@ -951,10 +951,10 @@
     style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
   &gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;497&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, http://localhost:10084/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, http://localhost:14937/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;递归思想图解&#34;
@@ -967,10 +967,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;c语言描述&#34;&gt;C语言描述
 &lt;/h3&gt;&lt;p&gt;我们分别将起始杆，中转杆，目标杆命名为pos1,pos2,pos3，用n代表初始杆上的盘子数目，初始化为1。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
 	width=&#34;1170&#34;
 	height=&#34;162&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, http://localhost:10084/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, http://localhost:14937/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义move函数来打印移动方法，此处pos1,pos2仅表示起点和终点&#34;
@@ -981,10 +981,10 @@
 		data-flex-basis=&#34;1733px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
 	width=&#34;1395&#34;
 	height=&#34;411&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, http://localhost:10084/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, http://localhost:14937/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义Hanoi函数来将n-1个移动到pos2上。并将pos1上最后一个移动到pos3上&#34;
@@ -995,10 +995,10 @@
 		data-flex-basis=&#34;814px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
 	width=&#34;1730&#34;
 	height=&#34;319&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, http://localhost:10084/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, http://localhost:14937/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;以n=3为例运行结果&#34;
@@ -1076,10 +1076,10 @@
 &lt;/div&gt;&lt;h2 id=&#34;青蛙跳台阶问题的分析与解决&#34;&gt;青蛙跳台阶问题的分析与解决。
 &lt;/h2&gt;&lt;h3 id=&#34;青蛙跳台阶问题分析&#34;&gt;青蛙跳台阶问题分析
 &lt;/h3&gt;&lt;h4 id=&#34;青蛙跳台阶问题条件&#34;&gt;青蛙跳台阶问题条件
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
 	width=&#34;372&#34;
 	height=&#34;348&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, http://localhost:10084/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, http://localhost:14937/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;共n个台阶,1次跳一个或者两个，求有几种跳法&#34;
@@ -1091,10 +1091,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;青蛙跳台阶问题分析-1&#34;&gt;青蛙跳台阶问题分析
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/msedge_eULSS8he8w.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/msedge_eULSS8he8w.png&#34;
 	width=&#34;461&#34;
 	height=&#34;120&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, http://localhost:10084/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, http://localhost:14937/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;其情况为斐波那契数列&#34;
@@ -1114,10 +1114,10 @@
 &lt;p&gt;我们不管它前面怎么跳，我们让它跳到n-1台阶上，一步跳到b级上。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:10084/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:14937/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
 	width=&#34;446&#34;
 	height=&#34;205&#34;
-	srcset=&#34;http://localhost:10084/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, http://localhost:10084/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
+	srcset=&#34;http://localhost:14937/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, http://localhost:14937/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分析结果如图&#34;
