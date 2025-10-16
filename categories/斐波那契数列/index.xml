@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>斐波那契数列 on GiteCD</title>
-        <link>http://localhost:1782/categories/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/</link>
+        <link>http://localhost:1313/categories/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/</link>
         <description>Recent content in 斐波那契数列 on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1782/categories/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C语言学习DLC_函数递归</title>
-        <link>http://localhost:1782/p/c_extra001/</link>
+        <link>http://localhost:1313/p/c_extra001/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1782/p/c_extra001/</guid>
-        <description>&lt;img src="http://localhost:1782/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>http://localhost:1313/p/c_extra001/</guid>
+        <description>&lt;img src="http://localhost:1313/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
@@ -50,10 +50,10 @@
     style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
   &gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;497&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, http://localhost:1782/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;递归思想图解&#34;
@@ -66,10 +66,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;c语言描述&#34;&gt;C语言描述
 &lt;/h3&gt;&lt;p&gt;我们分别将起始杆，中转杆，目标杆命名为pos1,pos2,pos3，用n代表初始杆上的盘子数目，初始化为1。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
 	width=&#34;1170&#34;
 	height=&#34;162&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, http://localhost:1782/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义move函数来打印移动方法，此处pos1,pos2仅表示起点和终点&#34;
@@ -80,10 +80,10 @@
 		data-flex-basis=&#34;1733px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
 	width=&#34;1395&#34;
 	height=&#34;411&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, http://localhost:1782/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义Hanoi函数来将n-1个移动到pos2上。并将pos1上最后一个移动到pos3上&#34;
@@ -94,10 +94,10 @@
 		data-flex-basis=&#34;814px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
 	width=&#34;1730&#34;
 	height=&#34;319&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, http://localhost:1782/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;以n=3为例运行结果&#34;
@@ -175,10 +175,10 @@
 &lt;/div&gt;&lt;h2 id=&#34;青蛙跳台阶问题的分析与解决&#34;&gt;青蛙跳台阶问题的分析与解决。
 &lt;/h2&gt;&lt;h3 id=&#34;青蛙跳台阶问题分析&#34;&gt;青蛙跳台阶问题分析
 &lt;/h3&gt;&lt;h4 id=&#34;青蛙跳台阶问题条件&#34;&gt;青蛙跳台阶问题条件
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
 	width=&#34;372&#34;
 	height=&#34;348&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, http://localhost:1782/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;共n个台阶,1次跳一个或者两个，求有几种跳法&#34;
@@ -190,10 +190,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;青蛙跳台阶问题分析-1&#34;&gt;青蛙跳台阶问题分析
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/msedge_eULSS8he8w.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_eULSS8he8w.png&#34;
 	width=&#34;461&#34;
 	height=&#34;120&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, http://localhost:1782/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, http://localhost:1313/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;其情况为斐波那契数列&#34;
@@ -213,10 +213,10 @@
 &lt;p&gt;我们不管它前面怎么跳，我们让它跳到n-1台阶上，一步跳到b级上。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1782/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
 	width=&#34;446&#34;
 	height=&#34;205&#34;
-	srcset=&#34;http://localhost:1782/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, http://localhost:1782/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分析结果如图&#34;

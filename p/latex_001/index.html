@@ -1,0 +1,2514 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="LaTeX的合作的简要教程">
+<title>LaTeX的合作编写：VSCode和Github的联合使用</title>
+
+<link rel='canonical' href='http://localhost:1313/p/latex_001/'>
+
+<link rel="stylesheet" href="/scss/style.min.d96b1641084030e426ca3c6947663936ae3d4ed56deb3b5a5508fd81b24276c7.css"><meta property='og:title' content="LaTeX的合作编写：VSCode和Github的联合使用">
+<meta property='og:description' content="LaTeX的合作的简要教程">
+<meta property='og:url' content='http://localhost:1313/p/latex_001/'>
+<meta property='og:site_name' content='GiteCD'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/latex_001/background.png' />
+<meta name="twitter:title" content="LaTeX的合作编写：VSCode和Github的联合使用">
+<meta name="twitter:description" content="LaTeX的合作的简要教程"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/p/latex_001/background.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+<div class="loading">
+    
+    <div class="loader-container">
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <div class="area"></div>
+        <button class="btn">Reload</button>
+        <div class="loader">
+            <p class="text">LOADING...</p>
+            <span style="--i: 100; --d: 0;"></span>
+            <div class="groove">
+                <span style="--i: 50; --d: 100;"></span>
+                <span style="--i: 30; --d: 150;"></span>
+                <span style="--i: 50; --d: 180;"></span>
+            </div>
+            <span style="--i: 10; --d: 230;"></span>
+            <div class="groove">
+                <span style="--i: 100; --d: 240;"></span>
+                <span style="--i: 15; --d: 340;"></span>
+                <span style="--i: 140; --d: 355;"></span>
+            </div>
+            <span style="--i: 60; --d: 495;"></span>
+            <div class="groove">
+                <span style="--i: 60; --d: 555;"></span>
+                <span style="--i: 50; --d: 615;"></span>
+                <span style="--i: 20; --d: 665;"></span>
+            </div>
+            <span style="--i: 40; --d: 685;"></span>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .loading {
+        position: fixed;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: #f5f5fa;
+    }
+
+     
+    .loader-container {
+        --color-primary: seagreen;
+        --color-neutral: #fff;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform: scale(2);
+         
+    }
+
+    .area {
+        &:nth-of-type(1):hover~.loader {
+            transform: rotateX(-20deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(2):hover~.loader {
+            transform: rotateX(-20deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(3):hover~.loader {
+            transform: rotateX(-20deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(4):hover~.loader {
+            transform: rotateX(-20deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(5):hover~.loader {
+            transform: rotateX(-20deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(6):hover~.loader {
+            transform: rotateX(-20deg) rotateY(-20deg);
+        }
+
+        &:nth-of-type(7):hover~.loader {
+            transform: rotateX(-10deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(8):hover~.loader {
+            transform: rotateX(-10deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(9):hover~.loader {
+            transform: rotateX(-10deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(10):hover~.loader {
+            transform: rotateX(-10deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(11):hover~.loader {
+            transform: rotateX(-10deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(12):hover~.loader {
+            transform: rotateX(-10deg) rotateY(-20deg);
+        }
+
+        &:nth-of-type(13):hover~.loader {
+            transform: rotateX(-5deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(14):hover~.loader {
+            transform: rotateX(-5deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(15):hover~.loader {
+            transform: rotateX(-5deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(16):hover~.loader {
+            transform: rotateX(-5deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(17):hover~.loader {
+            transform: rotateX(-5deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(18):hover~.loader {
+            transform: rotateX(-5deg) rotateY(-20deg);
+        }
+
+        &:nth-of-type(19):hover~.loader {
+            transform: rotateX(5deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(20):hover~.loader {
+            transform: rotateX(5deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(21):hover~.loader {
+            transform: rotateX(5deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(22):hover~.loader {
+            transform: rotateX(5deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(23):hover~.loader {
+            transform: rotateX(5deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(24):hover~.loader {
+            transform: rotateX(5deg) rotateY(-20deg);
+        }
+
+        &:nth-of-type(25):hover~.loader {
+            transform: rotateX(10deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(26):hover~.loader {
+            transform: rotateX(10deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(27):hover~.loader {
+            transform: rotateX(10deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(28):hover~.loader {
+            transform: rotateX(10deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(29):hover~.loader {
+            transform: rotateX(10deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(30):hover~.loader {
+            transform: rotateX(10deg) rotateY(-20deg);
+        }
+
+        &:nth-of-type(31):hover~.loader {
+            transform: rotateX(20deg) rotateY(20deg);
+        }
+
+        &:nth-of-type(32):hover~.loader {
+            transform: rotateX(20deg) rotateY(10deg);
+        }
+
+        &:nth-of-type(33):hover~.loader {
+            transform: rotateX(20deg) rotateY(5deg);
+        }
+
+        &:nth-of-type(34):hover~.loader {
+            transform: rotateX(20deg) rotateY(-5deg);
+        }
+
+        &:nth-of-type(35):hover~.loader {
+            transform: rotateX(20deg) rotateY(-10deg);
+        }
+
+        &:nth-of-type(36):hover~.loader {
+            transform: rotateX(20deg) rotateY(-20deg);
+        }
+    }
+
+    .loader {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-style: preserve-3d;
+        transition: all 0.15s linear;
+        translate: -50% -50%;
+
+        & span {
+            position: relative;
+            height: 30px;
+            background-color: var(--color-neutral);
+            border-top: 0.2rem solid var(--color-primary);
+            border-bottom: 0.2rem solid var(--color-primary);
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0.2rem;
+                width: 100%;
+                height: calc(100% - 0.4rem);
+                background-color: var(--color-primary);
+                clip-path: inset(0 100% 0 0);
+                animation: progress calc(var(--i) * 10ms) linear calc(var(--d) * 10ms) forwards;
+            }
+        }
+
+        &>span {
+            &:nth-of-type(1) {
+                width: 100px;
+                border-left: 0.2rem solid var(--color-primary);
+                border-radius: 10px 0 0 10px;
+
+                &::before {
+                    left: 0.2rem;
+                    width: calc(100% - 0.2rem + 1px);
+                    border-radius: 5px 0 0 5px;
+                }
+            }
+
+            &:nth-of-type(2) {
+                width: 10px;
+
+                &::before {
+                    left: -1px;
+                    width: calc(100% + 2px);
+                }
+            }
+
+            &:nth-of-type(3) {
+                width: 50px;
+                transform: translateZ(40px);
+
+                &::before {
+                    left: -1px;
+                    width: calc(100% + 2px);
+                }
+            }
+
+            &:nth-of-type(4) {
+                width: 40px;
+                border-right: 0.2rem solid var(--color-primary);
+                border-radius: 0 10px 10px 0;
+
+                &::before {
+                    right: 0.2rem;
+                    width: calc(100% - 0.2rem + 1px);
+                    border-radius: 0 5px 5px 0;
+                }
+            }
+        }
+    }
+
+    .text {
+        position: absolute;
+        top: -60%;
+        left: 10px;
+        color: var(--color-primary);
+        font-weight: 900;
+        transform: translateZ(-20px);
+    }
+
+    .groove {
+        position: relative;
+        transform-style: preserve-3d;
+
+        &>span {
+            display: inline-block;
+        }
+
+        &> :first-child,
+        &> :last-child {
+            position: absolute;
+        }
+
+        &:nth-of-type(1) {
+            &> :nth-child(1) {
+                width: 50px;
+                transform: rotateY(90deg);
+                transform-origin: left;
+            }
+
+            &> :nth-child(2) {
+                width: 30px;
+                transform: translateZ(-50px);
+            }
+
+            &> :nth-child(3) {
+                width: 50px;
+                transform: rotateY(-90deg) translateX(-50px);
+                transform-origin: left;
+            }
+        }
+
+        &:nth-of-type(2) {
+            &> :nth-child(1) {
+                width: 100px;
+                transform: rotateY(90deg);
+                transform-origin: left;
+            }
+
+            &> :nth-child(2) {
+                width: 15px;
+                transform: translateZ(-100px);
+            }
+
+            &> :nth-child(3) {
+                width: 140px;
+                transform: rotateY(-90deg) translateX(-100px);
+                transform-origin: left;
+            }
+        }
+
+        &:nth-of-type(3) {
+            &> :nth-child(1) {
+                width: 60px;
+                transform: rotateY(90deg) translateX(-40px);
+                transform-origin: left;
+            }
+
+            &> :nth-child(2) {
+                width: 30px;
+                transform: translateZ(-20px);
+            }
+
+            &> :nth-child(3) {
+                width: 20px;
+                transform: rotateY(-90deg) translateX(-20px);
+                transform-origin: left;
+            }
+        }
+    }
+
+    .btn {
+        position: absolute;
+        top: calc(50% + 5rem);
+        left: 50%;
+        padding: 0.5rem;
+        border: 5px solid var(--color-primary);
+        border-radius: 10px;
+        background: linear-gradient(var(--color-primary), var(--color-primary)) 0 0 / 100% 0 no-repeat;
+        color: var(--color-primary);
+        font-weight: 900;
+        transition: all 0.1s ease-in-out;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+
+        &:hover {
+            background-size: 100% 100%;
+            color: var(--color-neutral);
+        }
+
+        &:active {
+            font-size: 0.7em;
+
+            &~.loader span::before {
+                display: none;
+            }
+        }
+    }
+
+    @keyframes progress {
+        to {
+            clip-path: inset(0 0 0 0);
+        }
+    }
+</style>
+
+<script>
+    function initLoading() {
+        const isFirstVisit = !sessionStorage.getItem('visited');
+        if (isFirstVisit) {
+            let loading = document.querySelector(".loading");
+            loading.style.display = "flex";
+            document.addEventListener('DOMContentLoaded', function() {
+                
+                loadFinish();
+                
+                setTimeout(() => {
+                    loading.style.display = "none";
+                }, 1500)
+                sessionStorage.setItem('visited', 'true');
+            });
+        }
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    </head>
+    
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_565a92fa632de24a.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+            
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">GiteCD</a></h1>
+            <h2 class="site-description">这是一个使用 Hugo Stack 主题的的博客网站。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/277532789?spm_id_from=333.1007.0.0'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <!--
+tags: [china, platform, streaming, video]
+category: Brand
+version: "2.1"
+unicode: "f6d2"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#000000"
+  stroke-width="1"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" />
+  <path d="M8 3l2 3" />
+  <path d="M16 3l-2 3" />
+  <path d="M9 13v-2" />
+  <path d="M15 11v2" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/lucasguake'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页 | Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-logs/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>更新日志 | Logs</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档 | Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索 | Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5-list/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>技术链接 | LIST</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式 | Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#latex的发行版及模板">LaTeX的发行版及模板</a></li>
+    <li><a href="#个人的选择">个人的选择</a>
+      <ol>
+        <li><a href="#latex撰写工具">LaTeX撰写工具</a></li>
+        <li><a href="#overleaf在线合作编辑">overleaf在线合作编辑</a></li>
+        <li><a href="#vscode-和-githubgitee-结合的合作编辑">VSCode 和 Github/gitee 结合的合作编辑</a>
+          <ol>
+            <li><a href="#vscode-的latex环境配置">VScode 的Latex环境配置</a></li>
+            <li><a href="#vscode与github结合">VScode与github结合。</a></li>
+          </ol>
+        </li>
+        <li><a href="#附录">附录</a>
+          <ol>
+            <li><a href="#github的contibutor">GitHub的contibutor</a></li>
+            <li><a href="#仓库的回退">仓库的回退。</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#参考链接">参考链接</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/latex_001/">
+                <img src="/p/latex_001/background_hu_95ea532d57c3448e.png"
+                        srcset="/p/latex_001/background_hu_95ea532d57c3448e.png 800w, /p/latex_001/background_hu_7dfabf8fe3a38f56.png 1600w"
+                        width="800" 
+                        height="332" 
+                        loading="lazy"
+                        alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/latex/" >
+                LaTeX
+            </a>
+        
+            <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" >
+                数学建模
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/latex_001/">LaTeX的合作编写：VSCode和Github的联合使用</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            LaTeX的合作的简要教程
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 16, 2025</time>
+            </div>
+        
+            
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+          
+        <div id="viewCount">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
+            <time class="article-time--reading">
+                
+                <span id="vercount_value_page_pv">loading... </span>次
+            </time>
+        </div>
+    </footer>
+    </footer>
+    
+    
+
+    
+</div>
+
+
+
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="latex的合作编写vscode和github的联合使用">LaTeX的合作编写：VSCode和Github的联合使用
+</h1><h2 id="前言">前言
+</h2><p><strong>本文将展示一下内容</strong></p>
+<ol>
+<li>简单介绍LaTeX的各类发行版本及下载链接。由于官方下载网站较慢，在此附上各镜像网站地址。但此处不会展示其安装教程（像安装一般软件一样简单）。</li>
+<li>个人的选择方向：本文会介绍</li>
+</ol>
+<h2 id="latex的发行版及模板">LaTeX的发行版及模板
+</h2><p>在线LaTeX编辑器：<a class="link" href="https://www.overleaf.com"  target="_blank" rel="noopener"
+    >英文网站</a> <a class="link" href="https://cn.overleaf.com"  target="_blank" rel="noopener"
+    >中文网站</a></p>
+<blockquote class="alert alert-note">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Note</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>在线LaTeX编辑器：<a class="link" href="https://www.overleaf.com"  target="_blank" rel="noopener"
+    >https://www.overleaf.com</a>
+overleaf 在线编写，无需配置环境，甚至可以协助。</p>
+  </div>
+</blockquote><blockquote class="alert alert-note">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Note</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>TeX Live下载：<a class="link" href="https://www.tug.org/texlive/acquire-iso.html"  target="_blank" rel="noopener"
+    >【官方下载】</a>|<a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/"  target="_blank" rel="noopener"
+    >【清华镜像】</a> |<a class="link" href="https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f"  target="_blank" rel="noopener"
+    >【联合镜像】</a>
+TEx Live文件较大，无需下载宏包。个人推荐。</p>
+  </div>
+</blockquote><blockquote class="alert alert-note">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Note</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>MikTeX下载：<a class="link" href="https://miktex.org/download"  target="_blank" rel="noopener"
+    >【官方下载】</a> | <a class="link" href="https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f"  target="_blank" rel="noopener"
+    >【联合镜像】</a>
+MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</p>
+  </div>
+</blockquote><blockquote class="alert alert-tip">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Tip</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>可能用到的工具
+<a class="link" href="https://latex.codecogs.com/eqneditor/editor.php"  target="_blank" rel="noopener"
+    >[LaTeX 公式编辑器]</a> | <a class="link" href="https://tablesgenerator.com/"  target="_blank" rel="noopener"
+    >[在线表格转latex格式 ]</a>| <a class="link" href="https://latex.91maths.com/"  target="_blank" rel="noopener"
+    >[在线表格转latex格式 ]</a></p>
+  </div>
+</blockquote><h2 id="个人的选择">个人的选择
+</h2><h3 id="latex撰写工具">LaTeX撰写工具
+</h3><p>​	目前用latex主要有几种方法如自带的texworks，网页在线版latex编辑器overleaf，本地编辑器texstudio和<strong>vscode</strong>。</p>
+<h3 id="overleaf在线合作编辑">overleaf在线合作编辑
+</h3><p>​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。</p>
+<p>​	首先，我们来进行Overleaf的注册。<a class="link" href="https://cn.overleaf.com/register"  target="_blank" rel="noopener"
+    >Register - Overleaf, 在线LaTeX编辑器</a></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_15-30-29.png"
+	width="1584"
+	height="995"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_411416f39d36da38.png 480w, /p/latex_001/Snipaste_2025-10-16_15-30-29_hu_56f750ab6492ca34.png 1024w"
+	loading="lazy"
+	
+		alt="通过大学注册"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="382px"
+	
+></p>
+<p>注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）<img src="/p/latex_001/Snipaste_2025-10-16_15-43-56.png"
+	width="2249"
+	height="1370"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_26cd8b6f2673d5c5.png 480w, /p/latex_001/Snipaste_2025-10-16_15-43-56_hu_c9d57fc6f7a5b140.png 1024w"
+	loading="lazy"
+	
+		alt="分享"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="393px"
+	
+>
+<img src="/p/latex_001/Snipaste_2025-10-16_15-44-13.png"
+	width="2249"
+	height="1370"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_ffb91ab5ae9c708a.png 480w, /p/latex_001/Snipaste_2025-10-16_15-44-13_hu_db9f34885ab4acf8.png 1024w"
+	loading="lazy"
+	
+		alt="图片"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="393px"
+	
+></p>
+<p>同时，也可以进行版本回退。<img src="/p/latex_001/Snipaste_2025-10-16_15-44-48.png"
+	width="2249"
+	height="1370"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_498b6099744f1db0.png 480w, /p/latex_001/Snipaste_2025-10-16_15-44-48_hu_4ad8d3f21bb8967d.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_15-44-48"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="393px"
+	
+>
+<img src="/p/latex_001/Snipaste_2025-10-16_15-45-21.png"
+	width="2249"
+	height="1370"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bd2b102baabd7aa.png 480w, /p/latex_001/Snipaste_2025-10-16_15-45-21_hu_d75b98a3e328f84b.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_15-45-21"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="393px"
+	
+></p>
+<h3 id="vscode-和-githubgitee-结合的合作编辑">VSCode 和 Github/gitee 结合的合作编辑
+</h3><h4 id="vscode-的latex环境配置">VScode 的Latex环境配置
+</h4><p>​	由于自带的texworks年代久远UI难看直接排除，overleaf很不错但是由于文件存储在云而非本地总有些不安心，并且由于一系列原因使用overleaf编辑latex的用户越来越多，频繁出现崩了的情况，本地编辑器使用起来更让人放心。相较于texstudio，vscode的UI和代码块高亮更加清晰，而且可以更方便的使用git管理论文的tex代码。</p>
+<blockquote class="alert alert-warn">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Warning</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>这里仅做技术展示。Github需要科学上网，并且此方法仅适合懂Git的人。VScode的配置和Github登录不再进行展示。</p>
+  </div>
+</blockquote><blockquote class="alert alert-note">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Note</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>VSCode： [【下载地址】](<a class="link" href="https://code.visualstudio.com/"  target="_blank" rel="noopener"
+    >Visual Studio Code - Code Editing. Redefined</a>)</p>
+<p>VScode本质上是一个文本编辑器，所以电脑还需要安装TexLive环境.</p>
+<p>TeX Live下载：<a class="link" href="https://www.tug.org/texlive/acquire-iso.html"  target="_blank" rel="noopener"
+    >【官方下载】</a>|<a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/"  target="_blank" rel="noopener"
+    >【清华镜像】</a> |<a class="link" href="https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f"  target="_blank" rel="noopener"
+    >【联合镜像】</a></p>
+  </div>
+</blockquote><p>安装完后，在VScode搜索 <kbd>LaTeX  Workshop</kbd>  并安装<img src="/p/latex_001/Snipaste_2025-10-16_15-53-18.png"
+	width="2546"
+	height="1522"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_45b69cbbb15a08c2.png 480w, /p/latex_001/Snipaste_2025-10-16_15-53-18_hu_1fea24f978a8a565.png 1024w"
+	loading="lazy"
+	
+		alt="LaTeX Workshop"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="401px"
+	
+></p>
+<p>然后我们要对它进行配置</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_15-55-16.png"
+	width="1293"
+	height="1431"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, /p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_15-55-16"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="90"
+		data-flex-basis="216px"
+	
+>
+<img src="Snipaste_2025-10-16_15-55-52.png" alt="Snipaste_2025-10-16_15-55-52" style="zoom:50%;" />
+<img src="/p/latex_001/Snipaste_2025-10-16_15-56-01.png"
+	width="2560"
+	height="1528"
+	srcset="/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, /p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_15-56-01"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<p>将内容替换为一下内容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span><span class="lnt">156
+</span><span class="lnt">157
+</span><span class="lnt">158
+</span><span class="lnt">159
+</span><span class="lnt">160
+</span><span class="lnt">161
+</span><span class="lnt">162
+</span><span class="lnt">163
+</span><span class="lnt">164
+</span><span class="lnt">165
+</span><span class="lnt">166
+</span><span class="lnt">167
+</span><span class="lnt">168
+</span><span class="lnt">169
+</span><span class="lnt">170
+</span><span class="lnt">171
+</span><span class="lnt">172
+</span><span class="lnt">173
+</span><span class="lnt">174
+</span><span class="lnt">175
+</span><span class="lnt">176
+</span><span class="lnt">177
+</span><span class="lnt">178
+</span><span class="lnt">179
+</span><span class="lnt">180
+</span><span class="lnt">181
+</span><span class="lnt">182
+</span><span class="lnt">183
+</span><span class="lnt">184
+</span><span class="lnt">185
+</span><span class="lnt">186
+</span><span class="lnt">187
+</span><span class="lnt">188
+</span><span class="lnt">189
+</span><span class="lnt">190
+</span><span class="lnt">191
+</span><span class="lnt">192
+</span><span class="lnt">193
+</span><span class="lnt">194
+</span><span class="lnt">195
+</span><span class="lnt">196
+</span><span class="lnt">197
+</span><span class="lnt">198
+</span><span class="lnt">199
+</span><span class="lnt">200
+</span><span class="lnt">201
+</span><span class="lnt">202
+</span><span class="lnt">203
+</span><span class="lnt">204
+</span><span class="lnt">205
+</span><span class="lnt">206
+</span><span class="lnt">207
+</span><span class="lnt">208
+</span><span class="lnt">209
+</span><span class="lnt">210
+</span><span class="lnt">211
+</span><span class="lnt">212
+</span><span class="lnt">213
+</span><span class="lnt">214
+</span><span class="lnt">215
+</span><span class="lnt">216
+</span><span class="lnt">217
+</span><span class="lnt">218
+</span><span class="lnt">219
+</span><span class="lnt">220
+</span><span class="lnt">221
+</span><span class="lnt">222
+</span><span class="lnt">223
+</span><span class="lnt">224
+</span><span class="lnt">225
+</span><span class="lnt">226
+</span><span class="lnt">227
+</span><span class="lnt">228
+</span><span class="lnt">229
+</span><span class="lnt">230
+</span><span class="lnt">231
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.autoBuild.run&#34;</span><span class="p">:</span> <span class="s2">&#34;never&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.showContextMenu&#34;</span><span class="p">:</span> <span class="bp">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.intellisense.package.enabled&#34;</span><span class="p">:</span> <span class="bp">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.message.error.show&#34;</span><span class="p">:</span> <span class="bp">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.message.warning.show&#34;</span><span class="p">:</span> <span class="bp">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;xelatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;xelatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-synctex=1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-interaction=nonstopmode&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-file-line-error&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;%DOCFILE%&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;pdflatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;pdflatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-synctex=1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-interaction=nonstopmode&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-file-line-error&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;%DOCFILE%&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;latexmk&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;latexmk&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-synctex=1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-interaction=nonstopmode&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-file-line-error&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-pdf&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;-outdir=%OUTDIR%&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;%DOCFILE%&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;bibtex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;bibtex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;%DOCFILE%&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.recipes&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;XeLaTeX&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;xelatex&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;PDFLaTeX&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;pdflatex&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;BibTeX&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;bibtex&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;LaTeXmk&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;latexmk&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;xelatex -&gt; bibtex -&gt; xelatex*2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;xelatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;bibtex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;xelatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;xelatex&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;pdflatex -&gt; bibtex -&gt; pdflatex*2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="s2">&#34;tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;pdflatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;bibtex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;pdflatex&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>        <span class="s2">&#34;pdflatex&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>      <span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.clean.fileTypes&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.aux&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.bbl&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.blg&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.idx&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.ind&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.lof&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.lot&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.out&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.toc&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.acn&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.acr&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.alg&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.glg&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.glo&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.gls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.ist&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.fls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.log&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">​</span>    <span class="s2">&#34;*.fdb_latexmk&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.autoClean.run&#34;</span><span class="p">:</span> <span class="s2">&#34;onFailed&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.latex.recipe.default&#34;</span><span class="p">:</span> <span class="s2">&#34;lastUsed&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;latex-workshop.view.pdf.internal.synctex.keybinding&#34;</span><span class="p">:</span> <span class="s2">&#34;double-click&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这样，我们就配置好了VScode环境。</p>
+<h4 id="vscode与github结合">VScode与github结合。
+</h4><p>首先，一名成员创建了一个Github仓库。</p>
+<p><img src="/p/latex_001/github.png"
+	width="1213"
+	height="1288"
+	srcset="/p/latex_001/github_hu_36526e1c8012c902.png 480w, /p/latex_001/github_hu_ae7b622a417fe521.png 1024w"
+	loading="lazy"
+	
+		alt="github"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="94"
+		data-flex-basis="226px"
+	
+>
+<img src="/p/latex_001/lianjie1.png"
+	width="1711"
+	height="828"
+	srcset="/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, /p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w"
+	loading="lazy"
+	
+		alt="lianjie1"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="206"
+		data-flex-basis="495px"
+	
+></p>
+<p>然后 创建人 就可以直接提交内容了。</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-06-19.png"
+	width="2560"
+	height="1528"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, /p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-06-19"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+>
+<img src="/p/latex_001/Snipaste_2025-10-16_16-06-38.png"
+	width="2560"
+	height="1528"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, /p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-06-38"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-08-01.png"
+	width="2560"
+	height="1528"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, /p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-08-01"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+>
+<img src="/p/latex_001/Snipaste_2025-10-16_16-08-06.png"
+	width="1743"
+	height="995"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, /p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-08-06"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="420px"
+	
+></p>
+<p>接下来就要添加合作人了。</p>
+<p>创建人要邀请成员。</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-11-05.png"
+	width="1761"
+	height="1082"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, /p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-11-05"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="162"
+		data-flex-basis="390px"
+	
+><img src="/p/latex_001/Snipaste_2025-10-16_16-11-00.png"
+	width="1511"
+	height="1096"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, /p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-11-00"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="330px"
+	
+></p>
+<p>然后成员同意邀请。</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-11-45.png"
+	width="2256"
+	height="1378"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, /p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-11-45"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="163"
+		data-flex-basis="392px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-11-52.png"
+	width="2249"
+	height="660"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, /p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-11-52"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="340"
+		data-flex-basis="817px"
+	
+></p>
+<p>添加成功后，成员就可以在这个仓库上随意提交了。</p>
+<p>当然，有些创建者不希望成员随意更改，而是再自己检阅之后再提交。</p>
+<p>这里我们可以为提交设置规则。</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-45-04.png"
+	width="1437"
+	height="724"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, /p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-45-04"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="198"
+		data-flex-basis="476px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-45-25.png"
+	width="787"
+	height="381"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, /p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-45-25"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="206"
+		data-flex-basis="495px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-45-54.png"
+	width="1243"
+	height="421"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, /p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-45-54"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="295"
+		data-flex-basis="708px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-46-25.png"
+	width="1153"
+	height="602"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, /p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w"
+	loading="lazy"
+	
+		alt="Snipaste_2025-10-16_16-46-25"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="191"
+		data-flex-basis="459px"
+	
+></p>
+<p>这样，成员每次提交都是创建了一个新的分支，需要创建者从pull request确认后提交。</p>
+<p>具体确认教程与后面附录内容类似。</p>
+<h3 id="附录">附录
+</h3><h4 id="github的contibutor">GitHub的contibutor
+</h4><p>如果我们没有被邀请来修改这个仓库，但我们浏览过程中发现的仓库中的错误，我们可以采取以下方法解决问题。</p>
+<p>1.我们不能直接在原仓库上修改。我们需要把仓库fork为自己的仓库做修改。</p>
+<p>2.修改完毕后，我们从自己的仓库中添加pull request 向原始仓库提交修改申请（如图）</p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-46-41.png"
+	width="1632"
+	height="262"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_291b3247aee57dff.png 480w, /p/latex_001/Snipaste_2025-10-16_16-46-41_hu_6e105182a6168130.png 1024w"
+	loading="lazy"
+	
+		alt="提交修改"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="622"
+		data-flex-basis="1494px"
+	
+></p>
+<p>3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。<img src="/p/latex_001/Snipaste_2025-10-16_16-47-54.png"
+	width="1400"
+	height="1253"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_9e41011985fb3cb.png 480w, /p/latex_001/Snipaste_2025-10-16_16-47-54_hu_8687afbcb073fc14.png 1024w"
+	loading="lazy"
+	
+		alt="通过修改"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="111"
+		data-flex-basis="268px"
+	
+></p>
+<h4 id="仓库的回退">仓库的回退。
+</h4><p>像overleaf的历史一样，提交错了，github也可以进行回退，如下图。<img src="/p/latex_001/Snipaste_2025-10-16_16-19-12.png"
+	width="2560"
+	height="1528"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_ffd385714a031b80.png 480w, /p/latex_001/Snipaste_2025-10-16_16-19-12_hu_1697928364c0b578.png 1024w"
+	loading="lazy"
+	
+		alt="复制提交ID"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="167"
+		data-flex-basis="402px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-52-45.png"
+	width="2370"
+	height="1491"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_e4cff079bf1dec2b.png 480w, /p/latex_001/Snipaste_2025-10-16_16-52-45_hu_63f9ae9760b0cba2.png 1024w"
+	loading="lazy"
+	
+		alt="终端回退"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="158"
+		data-flex-basis="381px"
+	
+></p>
+<p><img src="/p/latex_001/Snipaste_2025-10-16_16-55-58.png"
+	width="384"
+	height="156"
+	srcset="/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_e3efbf706eac5701.png 480w, /p/latex_001/Snipaste_2025-10-16_16-55-58_hu_ff3c3f6aa125652.png 1024w"
+	loading="lazy"
+	
+		alt="回退成功"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="246"
+		data-flex-basis="590px"
+	
+></p>
+<h2 id="参考链接">参考链接
+</h2><p>如果有疑问，可以参考一下教程。</p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1FYaAzgEsk/?share_source=copy_web&amp;vd_source=78c40a494199bd421e3b56a59ef0944f"  target="_blank" rel="noopener"
+    >[1] B站.  Visual Studio Code自带Git工具使用教程, 2025-09-02</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1udEuzrEa7/?share_source=copy_web&amp;vd_source=78c40a494199bd421e3b56a59ef0944f"  target="_blank" rel="noopener"
+    >[2] B站.  和傻子一起写代码 2025-05-11</a></p>
+<p><a class="link" href="https://mirrors.cqu.edu.cn/CTAN/info/lshort/chinese/lshort-zh-cn.pdf"  target="_blank" rel="noopener"
+    >[3] B站.  一份不太简短的LaTeX教程</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    
+<div class="donate-section">
+  
+  <button class="donate-btn" onclick="toggleDonateQR()">赞赏支持</button>
+  
+  
+  <div class="donate-qr" id="donateQR" style="display: none;">
+    <div class="qr-container">
+  <img src="/images/wechat.png" alt="微信打赏">
+  <p class="wechat-text">微信打赏</p> 
+</div>
+<div class="qr-container">
+  <img src="/images/alipay.png" alt="支付宝打赏">
+  <p class="alipay-text">支付宝打赏</p> 
+</div>
+  </div>
+
+  
+  <script>
+    function toggleDonateQR() {
+      const qr = document.getElementById('donateQR');
+      qr.style.display = qr.style.display === 'none' ? 'flex' : 'none';
+    }
+  </script>
+
+  
+  <style>
+    .donate-section {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .donate-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #c35b4b;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .donate-qr {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .qr-container {
+      text-align: center;
+    }
+    .qr-container img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</div>
+</footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="LucasGuake/hugoblog"
+    data-repo-id="R_kgDOPkZ-3g"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOPkZ-3s4CumRI"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    data-loading=""
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark_dimmed');
+            }
+        }
+    })();
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 GiteCD
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+
+        
+        
+        
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+
+        
+        
+
+        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 2px;">
+            <span>
+                发布了 4 篇文章 | 共 6.9K 字
+            </span>
+            <span>
+                总访客数: <span id='busuanzi_value_site_uv'>Loading</span> | 总访问量: <span id='busuanzi_value_site_pv'>Loading</span>
+            </span>
+        </div>
+        
+        <div class="site-runtime" style="text-align: center; margin: 1rem 0; color: var(--color-text-secondary);">
+            <span id="runtime-display"></span>
+        </div>
+        <script>
+            
+            const startTimeStr = '2025-08-01T00:00:00\u002b08:00';
+            let startTime = new Date(startTimeStr);
+
+            
+            if (isNaN(startTime.getTime())) {
+                const fixedStr = startTimeStr.replace(/\+08:00$/, ' GMT+0800');
+                startTime = new Date(fixedStr);
+            }
+
+            function updateRuntime() {
+                const now = new Date();
+                const diffMs = now - startTime;
+                if (isNaN(diffMs)) {
+                    document.getElementById("runtime-display").textContent = "站点已运行：时间计算错误";
+                    return;
+                }
+                const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diffMs % (1000 * 60)) / 1000);
+
+                document.getElementById("runtime-display").textContent =
+                    `站点已运行：${days}天 ${hours}时 ${minutes}分 ${seconds}秒`;
+            }
+
+            updateRuntime();
+            setInterval(updateRuntime, 1000);
+        </script>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.22207a4f4c1eeac12f198687da04041ca6ce19430b320e223c222efa7547a861.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+    #TableOfContents>ul,
+    ol {
+
+        ul,
+        ol {
+            display: none;
+        }
+
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function () {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+                openUl.forEach((ul) => {
+                    ul.classList.remove("open")
+                })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url('http://localhost:1313/icons/backTop.svg');
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function () {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+<style>
+    .highlight {
+         
+        max-height: 400px;
+        overflow: hidden;
+    }
+
+    .code-show {
+        max-height: none !important;
+    }
+
+    .code-more-box {
+        width: 100%;
+        padding-top: 78px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .code-more-btn {
+        display: block;
+        margin: auto;
+        width: 44px;
+        height: 22px;
+        background: #f0f0f5;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 6px;
+        cursor: pointer;
+    }
+
+    .code-more-img {
+        cursor: pointer !important;
+        display: block;
+        margin: auto;
+        width: 22px;
+        height: 16px;
+    }
+</style>
+
+<script>
+  function initCodeMoreBox() {
+    let codeBlocks = document.querySelectorAll(".highlight");
+    if (!codeBlocks) {
+      return;
+    }
+    codeBlocks.forEach(codeBlock => {
+      
+      if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
+        return;
+      }
+      
+      
+      let codeMoreBox = document.createElement('div');
+      codeMoreBox.classList.add('code-more-box');
+      
+      let codeMoreBtn = document.createElement('span');
+      codeMoreBtn.classList.add('code-more-btn');
+      codeMoreBtn.addEventListener('click', () => {
+        codeBlock.classList.add('code-show');
+        codeMoreBox.style.display = 'none';
+        
+        window.dispatchEvent(new Event('resize'))
+      })
+      
+      let img = document.createElement('img');
+      img.classList.add('code-more-img');
+      img.src = "/code.png";
+      
+      codeMoreBtn.appendChild(img);
+      codeMoreBox.appendChild(codeMoreBtn);
+      codeBlock.appendChild(codeMoreBox)
+    })
+  }
+  
+  initCodeMoreBox();
+</script>
+
+
+
+<script defer src="https://cn.vercount.one/js"></script>
+
+<script>
+    function showHideView() {
+        
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+            
+            let article = document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+
+    showHideView();
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/turbofely@latest/src/turbofely.js"></script>
+
+
+<script type="module">
+    import TurboFeLy from 'https://cdn.jsdelivr.net/npm/turbofely@latest/src/turbofely.esm.js'
+</script>
+<div id="particles-js"></div>
+
+<script src="/background/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', '/background/particlesjs-config.json', function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    z-index: -1;
+  }
+</style>
+
+
+
+
+
+<style>
+    #jsi-flying-fish-container {
+        width: 100%;
+        height: 200px;
+        position: absolute;   
+        left: 0;
+        bottom: 0;            
+        z-index: -1;          
+        opacity: 0.37;
+        pointer-events: none;
+    }
+     
+    body {
+        position: relative;
+        min-height: 100vh;    
+    }
+</style>
+<div id="jsi-flying-fish-container"></div>
+<script src="/js/renderer.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        if (typeof RENDERER !== 'undefined' && RENDERER.init) {
+            RENDERER.init();
+        }
+    });
+</script>
+
+
+
+
+    </body>
+    
+<div class="sakana-box" style="position: fixed; right: 20px; bottom: 20px; z-index: 9999;"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sakana"></script>
+
+<style>
+ 
+.sakana-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+ 
+.sakana-box.hidden {
+  display: none; 
+   
+}
+
+ 
+#sakanaToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 80px; 
+  z-index: 9999;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+</style>
+
+
+<div class="sakana-box"></div>
+
+
+<button id="sakanaToggle">隐藏互动人物</button>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+  Sakana.init({
+    el: '.sakana-box',
+    scale: 0.5,
+    canSwitchCharacter: true
+  });
+
+  
+  const storedState = localStorage.getItem('sakanaGlobalState');
+  const sakanaBox = document.querySelector('.sakana-box');
+  const toggleBtn = document.getElementById('sakanaToggle');
+
+  
+  if (storedState === 'hidden') {
+    sakanaBox.classList.add('hidden');
+    toggleBtn.textContent = '显示互动人物';
+  } else {
+    
+    sakanaBox.classList.add('hidden'); 
+    toggleBtn.textContent = '显示互动人物';
+    
+    
+  }
+
+  
+  toggleBtn.addEventListener('click', () => {
+    const isHidden = sakanaBox.classList.contains('hidden');
+    
+    
+    sakanaBox.classList.toggle('hidden');
+    
+    toggleBtn.textContent = isHidden ? '隐藏互动人物' : '显示互动人物';
+    
+    localStorage.setItem('sakanaGlobalState', isHidden ? 'visible' : 'hidden');
+  });
+});
+</script>
+</html>
+
