@@ -14,13 +14,13 @@
         
         <guid>http://localhost:1313/p/latex_001/</guid>
         <description>&lt;img src="http://localhost:1313/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写vscode和github的联合使用&#34;&gt;LaTeX的合作编写：VSCode和Github的联合使用
-&lt;/h1&gt;&lt;h2 id=&#34;一前言&#34;&gt;一.前言
+&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文将展示一下内容&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;简单介绍LaTeX的各类发行版本及下载链接。由于官方下载网站较慢，在此附上各镜像网站地址。但此处不会展示其安装教程（像安装一般软件一样简单）。&lt;/li&gt;
 &lt;li&gt;个人的选择方向：本文会介绍&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;二latex的发行版及模板&#34;&gt;二.LaTeX的发行版及模板
+&lt;h2 id=&#34;latex的发行版及模板&#34;&gt;LaTeX的发行版及模板
 &lt;/h2&gt;&lt;p&gt;在线LaTeX编辑器：&lt;a class=&#34;link&#34; href=&#34;https://www.overleaf.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;英文网站&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://cn.overleaf.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;中文网站&lt;/a&gt;&lt;/p&gt;
@@ -83,12 +83,12 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;a class=&#34;link&#34; href=&#34;https://latex.codecogs.com/eqneditor/editor.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;[LaTeX 公式编辑器]&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://tablesgenerator.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;[在线表格转latex格式 ]&lt;/a&gt;| &lt;a class=&#34;link&#34; href=&#34;https://latex.91maths.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;[在线表格转latex格式 ]&lt;/a&gt;&lt;/p&gt;
+    &gt;[数学公式编辑器 ]&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
-&lt;/blockquote&gt;&lt;h2 id=&#34;三个人的选择&#34;&gt;三.个人的选择
-&lt;/h2&gt;&lt;h3 id=&#34;1latex撰写工具&#34;&gt;1.LaTeX撰写工具
+&lt;/blockquote&gt;&lt;h2 id=&#34;个人的选择&#34;&gt;个人的选择
+&lt;/h2&gt;&lt;h3 id=&#34;latex撰写工具&#34;&gt;LaTeX撰写工具
 &lt;/h3&gt;&lt;p&gt;​	目前用latex主要有几种方法如自带的texworks，网页在线版latex编辑器overleaf，本地编辑器texstudio和&lt;strong&gt;vscode&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;2-overleaf在线合作编辑&#34;&gt;2. overleaf在线合作编辑
+&lt;h3 id=&#34;overleaf在线合作编辑&#34;&gt;overleaf在线合作编辑
 &lt;/h3&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
 &lt;p&gt;​	首先，我们来进行Overleaf的注册。&lt;a class=&#34;link&#34; href=&#34;https://cn.overleaf.com/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Register - Overleaf, 在线LaTeX编辑器&lt;/a&gt;&lt;/p&gt;
@@ -162,8 +162,8 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;3-vscode-和-githubgitee-结合的合作编辑&#34;&gt;3. VSCode 和 Github/gitee 结合的合作编辑
-&lt;/h3&gt;&lt;h4 id=&#34;31-vscode-的latex环境配置&#34;&gt;3.1 VScode 的Latex环境配置
+&lt;h3 id=&#34;vscode-和-githubgitee-结合的合作编辑&#34;&gt;VSCode 和 Github/gitee 结合的合作编辑
+&lt;/h3&gt;&lt;h4 id=&#34;vscode-的latex环境配置&#34;&gt;VScode 的Latex环境配置
 &lt;/h4&gt;&lt;p&gt;​	由于自带的texworks年代久远UI难看直接排除，overleaf很不错但是由于文件存储在云而非本地总有些不安心，并且由于一系列原因使用overleaf编辑latex的用户越来越多，频繁出现崩了的情况，本地编辑器使用起来更让人放心。相较于texstudio，vscode的UI和代码块高亮更加清晰，而且可以更方便的使用git管理论文的tex代码。&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-warn&#34;&gt;
   
@@ -216,7 +216,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_15-55-16&#34;
+		alt=&#34;打开配置文件&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -231,7 +231,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_15-56-01&#34;
+		alt=&#34;替换后&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -709,7 +709,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这样，我们就配置好了VScode环境。&lt;/p&gt;
-&lt;h4 id=&#34;32-vscode与github结合&#34;&gt;3.2 VScode与github结合。
+&lt;h4 id=&#34;vscode与github结合&#34;&gt;VScode与github结合。
 &lt;/h4&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/github.png&#34;
 	width=&#34;1213&#34;
@@ -717,7 +717,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/github_hu_36526e1c8012c902.png 480w, http://localhost:1313/p/latex_001/github_hu_ae7b622a417fe521.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;github&#34;
+		alt=&#34;建立GitHub仓库&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -731,7 +731,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, http://localhost:1313/p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;lianjie1&#34;
+		alt=&#34;远程连接&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -746,7 +746,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-06-19&#34;
+		alt=&#34;链接远程仓库&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -760,7 +760,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-06-38&#34;
+		alt=&#34;输入仓库链接&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -774,7 +774,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-08-01&#34;
+		alt=&#34;推送&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -788,7 +788,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-08-06&#34;
+		alt=&#34;推送成功&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -798,31 +798,31 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来就要添加合作人了。&lt;/p&gt;
 &lt;p&gt;创建人要邀请成员。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
-	width=&#34;1761&#34;
-	height=&#34;1082&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2025-10-16_16-11-05&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;162&#34;
-		data-flex-basis=&#34;390px&#34;
-	
-&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
 	width=&#34;1511&#34;
 	height=&#34;1096&#34;
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-11-00&#34;
+		alt=&#34;选择邀请合作人&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;137&#34;
 		data-flex-basis=&#34;330px&#34;
+	
+&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
+	width=&#34;1761&#34;
+	height=&#34;1082&#34;
+	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;发送邀请&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;390px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后成员同意邀请。&lt;/p&gt;
@@ -832,7 +832,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-11-45&#34;
+		alt=&#34;成员界面&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -846,7 +846,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-11-52&#34;
+		alt=&#34;同意邀请&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -863,8 +863,6 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-45-04&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;198&#34;
@@ -876,8 +874,6 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	height=&#34;381&#34;
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w&#34;
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2025-10-16_16-45-25&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -891,8 +887,6 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Snipaste_2025-10-16_16-45-54&#34;
-	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;295&#34;
@@ -904,8 +898,6 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	height=&#34;602&#34;
 	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w&#34;
 	loading=&#34;lazy&#34;
-	
-		alt=&#34;Snipaste_2025-10-16_16-46-25&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
