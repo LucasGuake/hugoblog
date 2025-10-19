@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on GiteCD</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://frp-bus.com:25849/post/</link>
         <description>Recent content in Posts on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LaTeX的合作编写：VSCode和Github的联合使用</title>
-        <link>http://localhost:1313/p/latex_001/</link>
+        <link>https://frp-bus.com:25849/p/latex_001/</link>
         <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/latex_001/</guid>
-        <description>&lt;img src="http://localhost:1313/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写vscode和github的联合使用&#34;&gt;LaTeX的合作编写：VSCode和Github的联合使用
+        <guid>https://frp-bus.com:25849/p/latex_001/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写vscode和github的联合使用&#34;&gt;LaTeX的合作编写：VSCode和Github的联合使用
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文将展示一下内容&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -88,14 +88,14 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/blockquote&gt;&lt;h2 id=&#34;个人的选择&#34;&gt;个人的选择
 &lt;/h2&gt;&lt;h3 id=&#34;latex撰写工具&#34;&gt;LaTeX撰写工具
 &lt;/h3&gt;&lt;p&gt;​	目前用latex主要有几种方法如自带的texworks，网页在线版latex编辑器overleaf，本地编辑器texstudio和&lt;strong&gt;vscode&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;overleaf在线合作编辑&#34;&gt;overleaf在线合作编辑
-&lt;/h3&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
+&lt;h2 id=&#34;overleaf在线合作编辑&#34;&gt;overleaf在线合作编辑
+&lt;/h2&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
 &lt;p&gt;​	首先，我们来进行Overleaf的注册。&lt;a class=&#34;link&#34; href=&#34;https://cn.overleaf.com/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Register - Overleaf, 在线LaTeX编辑器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
 	width=&#34;1584&#34;
 	height=&#34;995&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_411416f39d36da38.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_56f750ab6492ca34.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_411416f39d36da38.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_56f750ab6492ca34.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过大学注册&#34;
@@ -106,10 +106,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;382px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
+&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_26cd8b6f2673d5c5.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_c9d57fc6f7a5b140.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_26cd8b6f2673d5c5.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_c9d57fc6f7a5b140.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分享&#34;
@@ -120,10 +120,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_ffb91ab5ae9c708a.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_db9f34885ab4acf8.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_ffb91ab5ae9c708a.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_db9f34885ab4acf8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片&#34;
@@ -134,10 +134,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
+&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_498b6099744f1db0.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_4ad8d3f21bb8967d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_498b6099744f1db0.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_4ad8d3f21bb8967d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-44-48&#34;
@@ -148,10 +148,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bd2b102baabd7aa.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_d75b98a3e328f84b.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bd2b102baabd7aa.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_d75b98a3e328f84b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-45-21&#34;
@@ -162,7 +162,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;vscode-和-githubgitee-结合的合作编辑&#34;&gt;VSCode 和 Github/gitee 结合的合作编辑
+&lt;h3 id=&#34;vscode-的latex配置&#34;&gt;VSCode 的LaTeX配置
 &lt;/h3&gt;&lt;h4 id=&#34;vscode-的latex环境配置&#34;&gt;VScode 的Latex环境配置
 &lt;/h4&gt;&lt;p&gt;​	由于自带的texworks年代久远UI难看直接排除，overleaf很不错但是由于文件存储在云而非本地总有些不安心，并且由于一系列原因使用overleaf编辑latex的用户越来越多，频繁出现崩了的情况，本地编辑器使用起来更让人放心。相较于texstudio，vscode的UI和代码块高亮更加清晰，而且可以更方便的使用git管理论文的tex代码。&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-warn&#34;&gt;
@@ -195,10 +195,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     &gt;【清华镜像】&lt;/a&gt; |&lt;a class=&#34;link&#34; href=&#34;https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【联合镜像】&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
-&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
+&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
 	width=&#34;2546&#34;
 	height=&#34;1522&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_45b69cbbb15a08c2.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_1fea24f978a8a565.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_45b69cbbb15a08c2.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_1fea24f978a8a565.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;LaTeX Workshop&#34;
@@ -210,10 +210,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后我们要对它进行配置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
 	width=&#34;1293&#34;
 	height=&#34;1431&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;打开配置文件&#34;
@@ -225,10 +225,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;
 &lt;img src=&#34;Snipaste_2025-10-16_15-55-52.png&#34; alt=&#34;Snipaste_2025-10-16_15-55-52&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;替换后&#34;
@@ -709,12 +709,24 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这样，我们就配置好了VScode环境。&lt;/p&gt;
-&lt;h4 id=&#34;vscode与github结合&#34;&gt;VScode与github结合。
-&lt;/h4&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/github.png&#34;
+&lt;h4 id=&#34;vscode的github仓库提交&#34;&gt;VsCode的Github仓库提交
+&lt;/h4&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Note&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;本文可以作为代码提交github仓库的教程。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/github.png&#34;
 	width=&#34;1213&#34;
 	height=&#34;1288&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/github_hu_36526e1c8012c902.png 480w, http://localhost:1313/p/latex_001/github_hu_ae7b622a417fe521.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/github_hu_36526e1c8012c902.png 480w, https://frp-bus.com:25849/p/latex_001/github_hu_ae7b622a417fe521.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;建立GitHub仓库&#34;
@@ -725,10 +737,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;226px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/lianjie1.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1.png&#34;
 	width=&#34;1711&#34;
 	height=&#34;828&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, http://localhost:1313/p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, https://frp-bus.com:25849/p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;远程连接&#34;
@@ -740,10 +752,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后 创建人 就可以直接提交内容了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;链接远程仓库&#34;
@@ -754,10 +766,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;输入仓库链接&#34;
@@ -768,10 +780,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送&#34;
@@ -782,10 +794,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
 	width=&#34;1743&#34;
 	height=&#34;995&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送成功&#34;
@@ -798,10 +810,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来就要添加合作人了。&lt;/p&gt;
 &lt;p&gt;创建人要邀请成员。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
 	width=&#34;1511&#34;
 	height=&#34;1096&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;选择邀请合作人&#34;
@@ -811,10 +823,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;137&#34;
 		data-flex-basis=&#34;330px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
+&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
 	width=&#34;1761&#34;
 	height=&#34;1082&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;发送邀请&#34;
@@ -826,10 +838,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后成员同意邀请。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
 	width=&#34;2256&#34;
 	height=&#34;1378&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;成员界面&#34;
@@ -840,10 +852,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;392px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;660&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;同意邀请&#34;
@@ -857,10 +869,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;p&gt;添加成功后，成员就可以在这个仓库上随意提交了。&lt;/p&gt;
 &lt;p&gt;当然，有些创建者不希望成员随意更改，而是再自己检阅之后再提交。&lt;/p&gt;
 &lt;p&gt;这里我们可以为提交设置规则。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
 	width=&#34;1437&#34;
 	height=&#34;724&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -869,10 +881,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;476px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
 	width=&#34;787&#34;
 	height=&#34;381&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -881,10 +893,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;495px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
 	width=&#34;1243&#34;
 	height=&#34;421&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -893,10 +905,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;708px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
 	width=&#34;1153&#34;
 	height=&#34;602&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -907,15 +919,15 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;这样，成员每次提交都是创建了一个新的分支，需要创建者从pull request确认后提交。&lt;/p&gt;
 &lt;p&gt;具体确认教程与后面附录内容类似。&lt;/p&gt;
-&lt;h3 id=&#34;附录&#34;&gt;附录
-&lt;/h3&gt;&lt;h4 id=&#34;github的contibutor&#34;&gt;GitHub的contibutor
+&lt;h3 id=&#34;github附录&#34;&gt;Github附录
+&lt;/h3&gt;&lt;h4 id=&#34;github的贡献者&#34;&gt;GitHub的贡献者
 &lt;/h4&gt;&lt;p&gt;如果我们没有被邀请来修改这个仓库，但我们浏览过程中发现的仓库中的错误，我们可以采取以下方法解决问题。&lt;/p&gt;
 &lt;p&gt;1.我们不能直接在原仓库上修改。我们需要把仓库fork为自己的仓库做修改。&lt;/p&gt;
 &lt;p&gt;2.修改完毕后，我们从自己的仓库中添加pull request 向原始仓库提交修改申请（如图）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
 	width=&#34;1632&#34;
 	height=&#34;262&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_291b3247aee57dff.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_6e105182a6168130.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_291b3247aee57dff.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_6e105182a6168130.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;提交修改&#34;
@@ -926,10 +938,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;1494px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
+&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;1253&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_9e41011985fb3cb.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_8687afbcb073fc14.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_9e41011985fb3cb.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_8687afbcb073fc14.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过修改&#34;
@@ -941,10 +953,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;仓库的回退&#34;&gt;仓库的回退。
-&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
+&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_ffd385714a031b80.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_1697928364c0b578.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_ffd385714a031b80.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_1697928364c0b578.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;复制提交ID&#34;
@@ -955,10 +967,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
 	width=&#34;2370&#34;
 	height=&#34;1491&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_e4cff079bf1dec2b.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_63f9ae9760b0cba2.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_e4cff079bf1dec2b.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_63f9ae9760b0cba2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;终端回退&#34;
@@ -969,10 +981,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;381px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
 	width=&#34;384&#34;
 	height=&#34;156&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_e3efbf706eac5701.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_ff3c3f6aa125652.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_e3efbf706eac5701.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_ff3c3f6aa125652.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;回退成功&#34;
@@ -995,11 +1007,11 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
         </item>
         <item>
         <title>C语言学习初阶_数组</title>
-        <link>http://localhost:1313/p/c_main001/</link>
+        <link>https://frp-bus.com:25849/p/c_main001/</link>
         <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/c_main001/</guid>
-        <description>&lt;img src="http://localhost:1313/p/c_main001/background.png" alt="Featured image of post C语言学习初阶_数组" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>https://frp-bus.com:25849/p/c_main001/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/c_main001/background.png" alt="Featured image of post C语言学习初阶_数组" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
@@ -1013,10 +1025,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;h2 id=&#34;原理&#34;&gt;原理
 &lt;/h2&gt;&lt;p&gt;我们先放置3x3的空格数组。下棋时相当于给数组赋值，并判断连续三个值是否相等来判断是否连三子，以达到三子棋的效果。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/mspaint_WRqt81ceJs.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/mspaint_WRqt81ceJs.png&#34;
 	width=&#34;247&#34;
 	height=&#34;207&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/mspaint_WRqt81ceJs_hu_4924cb65106ccbfc.png 480w, http://localhost:1313/p/c_main001/mspaint_WRqt81ceJs_hu_2fa7f569a6a704ff.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/mspaint_WRqt81ceJs_hu_4924cb65106ccbfc.png 480w, https://frp-bus.com:25849/p/c_main001/mspaint_WRqt81ceJs_hu_2fa7f569a6a704ff.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图解原理&#34;
@@ -1037,10 +1049,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/ol&gt;
 &lt;h3 id=&#34;主程序-菜单&#34;&gt;主程序 菜单
 &lt;/h3&gt;&lt;p&gt;在编写此工程时，我们分别建立文件&lt;kbd&gt;头文件game.h&lt;/kbd&gt; ， &lt;kbd&gt;源文件game.c&lt;/kbd&gt; ，&lt;kbd&gt;源文件main.c&lt;/kbd&gt;。并在&lt;kbd&gt;源文件main.c&lt;/kbd&gt;和 &lt;kbd&gt;源文件game.c&lt;/kbd&gt;中调用&lt;kbd&gt;头文件game.h&lt;/kbd&gt;。如下图所示(图中仅演示main.c的包含)
-&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_mJJPHJeNdp.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_mJJPHJeNdp.png&#34;
 	width=&#34;1916&#34;
 	height=&#34;1042&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_mJJPHJeNdp_hu_47e18ece4faf46dc.png 480w, http://localhost:1313/p/c_main001/devenv_mJJPHJeNdp_hu_9338c4e8aab2cb87.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_mJJPHJeNdp_hu_47e18ece4faf46dc.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_mJJPHJeNdp_hu_9338c4e8aab2cb87.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
@@ -1052,10 +1064,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来在在&lt;kbd&gt;源文件main.c&lt;/kbd&gt;中编写主程序和菜单函数menu();运用循环嵌套，使程序能够正常运行。由于游戏程序尚未编写，我们用打印”游戏开始“代替。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_VdZDLjRWlu.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_VdZDLjRWlu.png&#34;
 	width=&#34;1032&#34;
 	height=&#34;862&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_VdZDLjRWlu_hu_c71e3870ac437d1c.png 480w, http://localhost:1313/p/c_main001/devenv_VdZDLjRWlu_hu_ec3f6f83fe43776c.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_VdZDLjRWlu_hu_c71e3870ac437d1c.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_VdZDLjRWlu_hu_ec3f6f83fe43776c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;主程序&#34;
@@ -1065,10 +1077,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;119&#34;
 		data-flex-basis=&#34;287px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_RrgPwcoqSj.png&#34;
+&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_RrgPwcoqSj.png&#34;
 	width=&#34;1292&#34;
 	height=&#34;401&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_RrgPwcoqSj_hu_6930630505353842.png 480w, http://localhost:1313/p/c_main001/devenv_RrgPwcoqSj_hu_868fd5d403fb9213.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_RrgPwcoqSj_hu_6930630505353842.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_RrgPwcoqSj_hu_868fd5d403fb9213.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;菜单程序&#34;
@@ -1083,10 +1095,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;h3 id=&#34;游戏程序-初始化棋盘和棋盘显示&#34;&gt;游戏程序 初始化棋盘和棋盘显示
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;创建game函数，void类型。将上文中 &lt;kbd&gt;printf(”游戏开始“);&lt;/kbd&gt; ，替换为&lt;kbd&gt;game();&lt;/kbd&gt;函数。并在game函数中添加初始化棋盘和显示棋盘操作。
-&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_a9hKnXzcZ3.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_a9hKnXzcZ3.png&#34;
 	width=&#34;726&#34;
 	height=&#34;305&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_a9hKnXzcZ3_hu_4b5d02ffa901aeda.png 480w, http://localhost:1313/p/c_main001/devenv_a9hKnXzcZ3_hu_2919c4836b7d491d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_a9hKnXzcZ3_hu_4b5d02ffa901aeda.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_a9hKnXzcZ3_hu_2919c4836b7d491d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;头文件定义&#34;
@@ -1101,10 +1113,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/ol&gt;
 &lt;p&gt;接着，我们进行初始化棋盘和棋盘显示操作。
 先在 &lt;kbd&gt;game.h&lt;/kbd&gt;  中添加以下代码，以声明函数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_MVWIAdkHmc.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_MVWIAdkHmc.png&#34;
 	width=&#34;1168&#34;
 	height=&#34;353&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_MVWIAdkHmc_hu_a1606bfef066eebd.png 480w, http://localhost:1313/p/c_main001/devenv_MVWIAdkHmc_hu_cb505ffcc7b3fc53.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_MVWIAdkHmc_hu_a1606bfef066eebd.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_MVWIAdkHmc_hu_cb505ffcc7b3fc53.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;头文件定义&#34;
@@ -1117,10 +1129,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;然后，我们正式进入初始化棋盘和显示棋盘操作的编写。
 在&lt;kbd&gt;game.c&lt;/kbd&gt;中添加以下代码。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_YkeERT9Xo6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_YkeERT9Xo6.png&#34;
 	width=&#34;997&#34;
 	height=&#34;447&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_YkeERT9Xo6_hu_b7d4828f758aa0b2.png 480w, http://localhost:1313/p/c_main001/devenv_YkeERT9Xo6_hu_a6407e00cf4a1273.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_YkeERT9Xo6_hu_b7d4828f758aa0b2.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_YkeERT9Xo6_hu_a6407e00cf4a1273.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;3x3数组&#34;
@@ -1144,10 +1156,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     &lt;p&gt;正如&lt;kbd&gt;图解原理&lt;/kbd&gt;中展示的一样，这里生成了3x3的空格数组&lt;/p&gt;
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;p&gt;然后是打印棋盘代码，如下图所示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_bVtCxT8koS.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_bVtCxT8koS.png&#34;
 	width=&#34;799&#34;
 	height=&#34;827&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_bVtCxT8koS_hu_66ef766a44a49967.png 480w, http://localhost:1313/p/c_main001/devenv_bVtCxT8koS_hu_142e13439fb832ea.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_bVtCxT8koS_hu_66ef766a44a49967.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_bVtCxT8koS_hu_142e13439fb832ea.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;棋盘生成代码&#34;
@@ -1158,10 +1170,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;231px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/c_main001/mspaint_SFyRas32Fj.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/mspaint_SFyRas32Fj.png&#34;
 	width=&#34;257&#34;
 	height=&#34;186&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/mspaint_SFyRas32Fj_hu_60367978292da15.png 480w, http://localhost:1313/p/c_main001/mspaint_SFyRas32Fj_hu_56c21d2bdc0000ba.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/mspaint_SFyRas32Fj_hu_60367978292da15.png 480w, https://frp-bus.com:25849/p/c_main001/mspaint_SFyRas32Fj_hu_56c21d2bdc0000ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;棋盘生成原理&#34;
@@ -1173,10 +1185,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;此时，我们就完成了初始化棋盘和棋盘显示，调试结果如下.
-&lt;img src=&#34;http://localhost:1313/p/c_main001/WindowsTerminal_5qcSDjtvM0.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/WindowsTerminal_5qcSDjtvM0.png&#34;
 	width=&#34;822&#34;
 	height=&#34;338&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_65c43bff1c93a8e1.png 480w, http://localhost:1313/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_eefaaabec6f2b91e.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_65c43bff1c93a8e1.png 480w, https://frp-bus.com:25849/p/c_main001/WindowsTerminal_5qcSDjtvM0_hu_eefaaabec6f2b91e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1190,10 +1202,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;玩家下棋&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先在头文件&lt;kbd&gt;game.h&lt;/kbd&gt;中添加玩家下棋的函数声明。（图片见上文&amp;lt;头文件定义&amp;gt;其余内容一致，仅需将变量名改为PlayerMove即可。&lt;/p&gt;
 &lt;p&gt;然后在game.c中编写程序，内容如下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_FcRtXvMl0t.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_FcRtXvMl0t.png&#34;
 	width=&#34;802&#34;
 	height=&#34;707&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_FcRtXvMl0t_hu_2ecffb326953b297.png 480w, http://localhost:1313/p/c_main001/devenv_FcRtXvMl0t_hu_a1eb01bb2d83df85.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_FcRtXvMl0t_hu_2ecffb326953b297.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_FcRtXvMl0t_hu_a1eb01bb2d83df85.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1217,10 +1229,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/blockquote&gt;&lt;p&gt;&lt;strong&gt;电脑下棋&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;先在头文件&lt;kbd&gt;game.h&lt;/kbd&gt;中添加玩家下棋的函数声明。（图片见上文&amp;lt;头文件定义&amp;gt;其余内容一致，仅需将变量名改为 ComputerMove即可。&lt;/p&gt;
 &lt;p&gt;随即我们继续在game.c中编写&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_mfXxcqpZ7S.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_mfXxcqpZ7S.png&#34;
 	width=&#34;814&#34;
 	height=&#34;523&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_mfXxcqpZ7S_hu_a448edb7f8aaf4db.png 480w, http://localhost:1313/p/c_main001/devenv_mfXxcqpZ7S_hu_f3ceee260ce93b93.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_mfXxcqpZ7S_hu_a448edb7f8aaf4db.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_mfXxcqpZ7S_hu_f3ceee260ce93b93.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1235,10 +1247,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 需要在main.c的主程序中添加srand((unsigned int) time(NULL));以实现全随机
-&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_Gz4DkdFcd5.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_Gz4DkdFcd5.png&#34;
 	width=&#34;496&#34;
 	height=&#34;77&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_Gz4DkdFcd5_hu_66a621a185210fa0.png 480w, http://localhost:1313/p/c_main001/devenv_Gz4DkdFcd5_hu_b95166f83e2b9468.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_Gz4DkdFcd5_hu_66a621a185210fa0.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_Gz4DkdFcd5_hu_b95166f83e2b9468.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1246,10 +1258,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;644&#34;
 		data-flex-basis=&#34;1545px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_x1MYOLOsCj.png&#34;
+&gt; &lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_x1MYOLOsCj.png&#34;
 	width=&#34;501&#34;
 	height=&#34;219&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_x1MYOLOsCj_hu_354c578f867081a4.png 480w, http://localhost:1313/p/c_main001/devenv_x1MYOLOsCj_hu_5982ff0348db1b81.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_x1MYOLOsCj_hu_354c578f867081a4.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_x1MYOLOsCj_hu_5982ff0348db1b81.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1288,10 +1300,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;p&gt;1.在game.h中声明IsWin函数&lt;/p&gt;
 &lt;p&gt;2.在game.c中编写IsWin函数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_yWupY79GV5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_yWupY79GV5.png&#34;
 	width=&#34;922&#34;
 	height=&#34;1149&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_yWupY79GV5_hu_b4fb527a2d58e78e.png 480w, http://localhost:1313/p/c_main001/devenv_yWupY79GV5_hu_c07e732e766e6517.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_yWupY79GV5_hu_b4fb527a2d58e78e.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_yWupY79GV5_hu_c07e732e766e6517.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;game.c&#34;
@@ -1301,10 +1313,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;80&#34;
 		data-flex-basis=&#34;192px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_AVen1cMxxi.png&#34;
+&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_AVen1cMxxi.png&#34;
 	width=&#34;1025&#34;
 	height=&#34;817&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_AVen1cMxxi_hu_8058f37f1beac6e4.png 480w, http://localhost:1313/p/c_main001/devenv_AVen1cMxxi_hu_5831c8846d438206.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_AVen1cMxxi_hu_8058f37f1beac6e4.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_AVen1cMxxi_hu_5831c8846d438206.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;game.h&#34;
@@ -1329,10 +1341,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;h3 id=&#34;游戏程序-game函数汇集&#34;&gt;游戏程序 game函数汇集
 &lt;/h3&gt;&lt;p&gt;main.c中的game函数具体内容如下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/devenv_gYmzx7ztkN.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/devenv_gYmzx7ztkN.png&#34;
 	width=&#34;597&#34;
 	height=&#34;949&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/devenv_gYmzx7ztkN_hu_29c1b2f30a34f401.png 480w, http://localhost:1313/p/c_main001/devenv_gYmzx7ztkN_hu_165df7bd79ea1c12.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/devenv_gYmzx7ztkN_hu_29c1b2f30a34f401.png 480w, https://frp-bus.com:25849/p/c_main001/devenv_gYmzx7ztkN_hu_165df7bd79ea1c12.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;main.c中的void game&#34;
@@ -1344,10 +1356,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;游戏程序-调试结果&#34;&gt;游戏程序 调试结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_main001/WindowsTerminal_pJFonwsJTR.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_main001/WindowsTerminal_pJFonwsJTR.png&#34;
 	width=&#34;847&#34;
 	height=&#34;837&#34;
-	srcset=&#34;http://localhost:1313/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_acf42ee053aadc28.png 480w, http://localhost:1313/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_31e2b857261f9850.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_acf42ee053aadc28.png 480w, https://frp-bus.com:25849/p/c_main001/WindowsTerminal_pJFonwsJTR_hu_31e2b857261f9850.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;调试结果&#34;
@@ -1896,11 +1908,11 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
         </item>
         <item>
         <title>C语言学习DLC_函数递归</title>
-        <link>http://localhost:1313/p/c_extra001/</link>
+        <link>https://frp-bus.com:25849/p/c_extra001/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/c_extra001/</guid>
-        <description>&lt;img src="http://localhost:1313/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>https://frp-bus.com:25849/p/c_extra001/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
@@ -1937,10 +1949,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
   &gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;497&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, http://localhost:1313/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y_hu_b34686e9c2fe9b4d.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y_hu_4ebd97f3c580223d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;递归思想图解&#34;
@@ -1953,10 +1965,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;c语言描述&#34;&gt;C语言描述
 &lt;/h3&gt;&lt;p&gt;我们分别将起始杆，中转杆，目标杆命名为pos1,pos2,pos3，用n代表初始杆上的盘子数目，初始化为1。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
 	width=&#34;1170&#34;
 	height=&#34;162&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, http://localhost:1313/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN_hu_71505135f0896609.png 480w, https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN_hu_861c5504e5b6d5b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义move函数来打印移动方法，此处pos1,pos2仅表示起点和终点&#34;
@@ -1967,10 +1979,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;1733px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
 	width=&#34;1395&#34;
 	height=&#34;411&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, http://localhost:1313/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw_hu_902d0fdea5ecac72.png 480w, https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw_hu_36235c45bbd73777.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义Hanoi函数来将n-1个移动到pos2上。并将pos1上最后一个移动到pos3上&#34;
@@ -1981,10 +1993,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;814px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
 	width=&#34;1730&#34;
 	height=&#34;319&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, http://localhost:1313/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_e6f73d9b257456bf.png 480w, https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_fb8707a7db4f6e60.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;以n=3为例运行结果&#34;
@@ -2062,10 +2074,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/div&gt;&lt;h2 id=&#34;青蛙跳台阶问题的分析与解决&#34;&gt;青蛙跳台阶问题的分析与解决。
 &lt;/h2&gt;&lt;h3 id=&#34;青蛙跳台阶问题分析&#34;&gt;青蛙跳台阶问题分析
 &lt;/h3&gt;&lt;h4 id=&#34;青蛙跳台阶问题条件&#34;&gt;青蛙跳台阶问题条件
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
 	width=&#34;372&#34;
 	height=&#34;348&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, http://localhost:1313/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_a8c789c7a1270bdd.png 480w, https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_531f14f02e1d94a7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;共n个台阶,1次跳一个或者两个，求有几种跳法&#34;
@@ -2077,10 +2089,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;青蛙跳台阶问题分析-1&#34;&gt;青蛙跳台阶问题分析
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_eULSS8he8w.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w.png&#34;
 	width=&#34;461&#34;
 	height=&#34;120&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, http://localhost:1313/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w_hu_388a2c752f32e83.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w_hu_a2d8a09667681a38.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;其情况为斐波那契数列&#34;
@@ -2100,10 +2112,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;p&gt;我们不管它前面怎么跳，我们让它跳到n-1台阶上，一步跳到b级上。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
 	width=&#34;446&#34;
 	height=&#34;205&#34;
-	srcset=&#34;http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, http://localhost:1313/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q_hu_644a6a93efd509e6.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q_hu_64e8879d88c01d10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分析结果如图&#34;
@@ -2180,11 +2192,11 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
         </item>
         <item>
         <title>markdown语法英文版</title>
-        <link>http://localhost:1313/p/markdown_study/</link>
+        <link>https://frp-bus.com:25849/p/markdown_study/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/markdown_study/</guid>
-        <description>&lt;img src="http://localhost:1313/p/markdown_study/main.png" alt="Featured image of post markdown语法英文版" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <guid>https://frp-bus.com:25849/p/markdown_study/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/markdown_study/main.png" alt="Featured image of post markdown语法英文版" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -2251,11 +2263,13 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
+— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;tables&#34;&gt;Tables
 &lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
 &lt;table&gt;

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>LaTeX on GiteCD</title>
-        <link>http://localhost:1313/categories/latex/</link>
+        <link>https://frp-bus.com:25849/categories/latex/</link>
         <description>Recent content in LaTeX on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/latex/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/categories/latex/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LaTeX的合作编写：VSCode和Github的联合使用</title>
-        <link>http://localhost:1313/p/latex_001/</link>
+        <link>https://frp-bus.com:25849/p/latex_001/</link>
         <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/latex_001/</guid>
-        <description>&lt;img src="http://localhost:1313/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写vscode和github的联合使用&#34;&gt;LaTeX的合作编写：VSCode和Github的联合使用
+        <guid>https://frp-bus.com:25849/p/latex_001/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写vscode和github的联合使用&#34;&gt;LaTeX的合作编写：VSCode和Github的联合使用
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文将展示一下内容&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -88,14 +88,14 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/blockquote&gt;&lt;h2 id=&#34;个人的选择&#34;&gt;个人的选择
 &lt;/h2&gt;&lt;h3 id=&#34;latex撰写工具&#34;&gt;LaTeX撰写工具
 &lt;/h3&gt;&lt;p&gt;​	目前用latex主要有几种方法如自带的texworks，网页在线版latex编辑器overleaf，本地编辑器texstudio和&lt;strong&gt;vscode&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;overleaf在线合作编辑&#34;&gt;overleaf在线合作编辑
-&lt;/h3&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
+&lt;h2 id=&#34;overleaf在线合作编辑&#34;&gt;overleaf在线合作编辑
+&lt;/h2&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
 &lt;p&gt;​	首先，我们来进行Overleaf的注册。&lt;a class=&#34;link&#34; href=&#34;https://cn.overleaf.com/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Register - Overleaf, 在线LaTeX编辑器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
 	width=&#34;1584&#34;
 	height=&#34;995&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_411416f39d36da38.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_56f750ab6492ca34.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_411416f39d36da38.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_56f750ab6492ca34.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过大学注册&#34;
@@ -106,10 +106,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;382px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
+&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_26cd8b6f2673d5c5.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_c9d57fc6f7a5b140.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_26cd8b6f2673d5c5.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_c9d57fc6f7a5b140.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分享&#34;
@@ -120,10 +120,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_ffb91ab5ae9c708a.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_db9f34885ab4acf8.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_ffb91ab5ae9c708a.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_db9f34885ab4acf8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片&#34;
@@ -134,10 +134,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
+&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_498b6099744f1db0.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_4ad8d3f21bb8967d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_498b6099744f1db0.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_4ad8d3f21bb8967d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-44-48&#34;
@@ -148,10 +148,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bd2b102baabd7aa.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_d75b98a3e328f84b.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bd2b102baabd7aa.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_d75b98a3e328f84b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-45-21&#34;
@@ -162,7 +162,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;vscode-和-githubgitee-结合的合作编辑&#34;&gt;VSCode 和 Github/gitee 结合的合作编辑
+&lt;h3 id=&#34;vscode-的latex配置&#34;&gt;VSCode 的LaTeX配置
 &lt;/h3&gt;&lt;h4 id=&#34;vscode-的latex环境配置&#34;&gt;VScode 的Latex环境配置
 &lt;/h4&gt;&lt;p&gt;​	由于自带的texworks年代久远UI难看直接排除，overleaf很不错但是由于文件存储在云而非本地总有些不安心，并且由于一系列原因使用overleaf编辑latex的用户越来越多，频繁出现崩了的情况，本地编辑器使用起来更让人放心。相较于texstudio，vscode的UI和代码块高亮更加清晰，而且可以更方便的使用git管理论文的tex代码。&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-warn&#34;&gt;
@@ -195,10 +195,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     &gt;【清华镜像】&lt;/a&gt; |&lt;a class=&#34;link&#34; href=&#34;https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【联合镜像】&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
-&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
+&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
 	width=&#34;2546&#34;
 	height=&#34;1522&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_45b69cbbb15a08c2.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_1fea24f978a8a565.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_45b69cbbb15a08c2.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_1fea24f978a8a565.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;LaTeX Workshop&#34;
@@ -210,10 +210,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后我们要对它进行配置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
 	width=&#34;1293&#34;
 	height=&#34;1431&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c0eb726dfa88df48.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_450dbb6e810b6133.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;打开配置文件&#34;
@@ -225,10 +225,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;
 &lt;img src=&#34;Snipaste_2025-10-16_15-55-52.png&#34; alt=&#34;Snipaste_2025-10-16_15-55-52&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_b6b57205e41e7250.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_792209b5b14c5a06.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;替换后&#34;
@@ -709,12 +709,24 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这样，我们就配置好了VScode环境。&lt;/p&gt;
-&lt;h4 id=&#34;vscode与github结合&#34;&gt;VScode与github结合。
-&lt;/h4&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/github.png&#34;
+&lt;h4 id=&#34;vscode的github仓库提交&#34;&gt;VsCode的Github仓库提交
+&lt;/h4&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Note&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;本文可以作为代码提交github仓库的教程。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/github.png&#34;
 	width=&#34;1213&#34;
 	height=&#34;1288&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/github_hu_36526e1c8012c902.png 480w, http://localhost:1313/p/latex_001/github_hu_ae7b622a417fe521.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/github_hu_36526e1c8012c902.png 480w, https://frp-bus.com:25849/p/latex_001/github_hu_ae7b622a417fe521.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;建立GitHub仓库&#34;
@@ -725,10 +737,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;226px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/lianjie1.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1.png&#34;
 	width=&#34;1711&#34;
 	height=&#34;828&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, http://localhost:1313/p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1_hu_b09288380b11fd5c.png 480w, https://frp-bus.com:25849/p/latex_001/lianjie1_hu_deebd187047ad30c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;远程连接&#34;
@@ -740,10 +752,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后 创建人 就可以直接提交内容了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_f86d50d8d579eaab.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_94926f542762a07f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;链接远程仓库&#34;
@@ -754,10 +766,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_1735b006166ea60b.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_d04afad0a2722ab0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;输入仓库链接&#34;
@@ -768,10 +780,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_d54959765e5d8a83.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_47b3e473b9a7fb10.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送&#34;
@@ -782,10 +794,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
+&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
 	width=&#34;1743&#34;
 	height=&#34;995&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_a543a5dadd6465e4.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_d246044c1fe92aec.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送成功&#34;
@@ -798,10 +810,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来就要添加合作人了。&lt;/p&gt;
 &lt;p&gt;创建人要邀请成员。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
 	width=&#34;1511&#34;
 	height=&#34;1096&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_fc2c0ac34e9ccef4.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_dd5bb40e4b7783a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;选择邀请合作人&#34;
@@ -811,10 +823,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;137&#34;
 		data-flex-basis=&#34;330px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
+&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
 	width=&#34;1761&#34;
 	height=&#34;1082&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_7d6a57575ace841e.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_b1828cfc178ebc7d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;发送邀请&#34;
@@ -826,10 +838,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后成员同意邀请。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
 	width=&#34;2256&#34;
 	height=&#34;1378&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_af0237e22246c6d5.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_c00dcdbea4867815.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;成员界面&#34;
@@ -840,10 +852,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;392px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;660&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_ac95ab26695ba716.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_df7a3aa4541aca1c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;同意邀请&#34;
@@ -857,10 +869,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;p&gt;添加成功后，成员就可以在这个仓库上随意提交了。&lt;/p&gt;
 &lt;p&gt;当然，有些创建者不希望成员随意更改，而是再自己检阅之后再提交。&lt;/p&gt;
 &lt;p&gt;这里我们可以为提交设置规则。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
 	width=&#34;1437&#34;
 	height=&#34;724&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_57c4c48a31e2fac0.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_47145c54a001030f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -869,10 +881,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;476px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
 	width=&#34;787&#34;
 	height=&#34;381&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_3b67a4d4f2ceaf71.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_e75ad65ddf2ab125.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -881,10 +893,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;495px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
 	width=&#34;1243&#34;
 	height=&#34;421&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1107b72f6dce74a8.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_fc2294ee45eb2187.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -893,10 +905,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;708px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
 	width=&#34;1153&#34;
 	height=&#34;602&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_b6189ed7b0f41c55.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_76e09806c74a8220.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -907,15 +919,15 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;这样，成员每次提交都是创建了一个新的分支，需要创建者从pull request确认后提交。&lt;/p&gt;
 &lt;p&gt;具体确认教程与后面附录内容类似。&lt;/p&gt;
-&lt;h3 id=&#34;附录&#34;&gt;附录
-&lt;/h3&gt;&lt;h4 id=&#34;github的contibutor&#34;&gt;GitHub的contibutor
+&lt;h3 id=&#34;github附录&#34;&gt;Github附录
+&lt;/h3&gt;&lt;h4 id=&#34;github的贡献者&#34;&gt;GitHub的贡献者
 &lt;/h4&gt;&lt;p&gt;如果我们没有被邀请来修改这个仓库，但我们浏览过程中发现的仓库中的错误，我们可以采取以下方法解决问题。&lt;/p&gt;
 &lt;p&gt;1.我们不能直接在原仓库上修改。我们需要把仓库fork为自己的仓库做修改。&lt;/p&gt;
 &lt;p&gt;2.修改完毕后，我们从自己的仓库中添加pull request 向原始仓库提交修改申请（如图）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
 	width=&#34;1632&#34;
 	height=&#34;262&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_291b3247aee57dff.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_6e105182a6168130.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_291b3247aee57dff.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_6e105182a6168130.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;提交修改&#34;
@@ -926,10 +938,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;1494px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
+&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;1253&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_9e41011985fb3cb.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_8687afbcb073fc14.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_9e41011985fb3cb.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_8687afbcb073fc14.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过修改&#34;
@@ -941,10 +953,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;仓库的回退&#34;&gt;仓库的回退。
-&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
+&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_ffd385714a031b80.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_1697928364c0b578.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_ffd385714a031b80.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_1697928364c0b578.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;复制提交ID&#34;
@@ -955,10 +967,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
 	width=&#34;2370&#34;
 	height=&#34;1491&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_e4cff079bf1dec2b.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_63f9ae9760b0cba2.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_e4cff079bf1dec2b.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_63f9ae9760b0cba2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;终端回退&#34;
@@ -969,10 +981,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;381px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
 	width=&#34;384&#34;
 	height=&#34;156&#34;
-	srcset=&#34;http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_e3efbf706eac5701.png 480w, http://localhost:1313/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_ff3c3f6aa125652.png 1024w&#34;
+	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_e3efbf706eac5701.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_ff3c3f6aa125652.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;回退成功&#34;

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="LaTeX的合作的简要教程">
 <title>LaTeX的合作编写：VSCode和Github的联合使用</title>
 
-<link rel='canonical' href='http://localhost:1313/p/latex_001/'>
+<link rel='canonical' href='https://frp-bus.com:25849/p/latex_001/'>
 
-<link rel="stylesheet" href="/scss/style.min.d96b1641084030e426ca3c6947663936ae3d4ed56deb3b5a5508fd81b24276c7.css"><meta property='og:title' content="LaTeX的合作编写：VSCode和Github的联合使用">
+<link rel="stylesheet" href="/scss/style.min.b5605a282a08928eb7398f422592e67d40fa18f3d3b84bcd04a77821cb91598a.css"><meta property='og:title' content="LaTeX的合作编写：VSCode和Github的联合使用">
 <meta property='og:description' content="LaTeX的合作的简要教程">
-<meta property='og:url' content='http://localhost:1313/p/latex_001/'>
+<meta property='og:url' content='https://frp-bus.com:25849/p/latex_001/'>
 <meta property='og:site_name' content='GiteCD'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/p/latex_001/background.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-16T00:00:00&#43;00:00'/><meta property='og:image' content='https://frp-bus.com:25849/p/latex_001/background.png' />
 <meta name="twitter:title" content="LaTeX的合作编写：VSCode和Github的联合使用">
 <meta name="twitter:description" content="LaTeX的合作的简要教程"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/p/latex_001/background.png' />
+    <meta name="twitter:image" content='https://frp-bus.com:25849/p/latex_001/background.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 <div class="loading">
     
@@ -740,16 +740,19 @@ unicode: "f6d2"
     <li><a href="#个人的选择">个人的选择</a>
       <ol>
         <li><a href="#latex撰写工具">LaTeX撰写工具</a></li>
-        <li><a href="#overleaf在线合作编辑">overleaf在线合作编辑</a></li>
-        <li><a href="#vscode-和-githubgitee-结合的合作编辑">VSCode 和 Github/gitee 结合的合作编辑</a>
+      </ol>
+    </li>
+    <li><a href="#overleaf在线合作编辑">overleaf在线合作编辑</a>
+      <ol>
+        <li><a href="#vscode-的latex配置">VSCode 的LaTeX配置</a>
           <ol>
             <li><a href="#vscode-的latex环境配置">VScode 的Latex环境配置</a></li>
-            <li><a href="#vscode与github结合">VScode与github结合。</a></li>
+            <li><a href="#vscode的github仓库提交">VsCode的Github仓库提交</a></li>
           </ol>
         </li>
-        <li><a href="#附录">附录</a>
+        <li><a href="#github附录">Github附录</a>
           <ol>
-            <li><a href="#github的contibutor">GitHub的contibutor</a></li>
+            <li><a href="#github的贡献者">GitHub的贡献者</a></li>
             <li><a href="#仓库的回退">仓库的回退。</a></li>
           </ol>
         </li>
@@ -792,6 +795,10 @@ unicode: "f6d2"
         
             <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" >
                 数学建模
+            </a>
+        
+            <a href="/categories/github/" >
+                Github
             </a>
         
     </header>
@@ -943,8 +950,8 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
 </blockquote><h2 id="个人的选择">个人的选择
 </h2><h3 id="latex撰写工具">LaTeX撰写工具
 </h3><p>​	目前用latex主要有几种方法如自带的texworks，网页在线版latex编辑器overleaf，本地编辑器texstudio和<strong>vscode</strong>。</p>
-<h3 id="overleaf在线合作编辑">overleaf在线合作编辑
-</h3><p>​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。</p>
+<h2 id="overleaf在线合作编辑">overleaf在线合作编辑
+</h2><p>​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。</p>
 <p>​	首先，我们来进行Overleaf的注册。<a class="link" href="https://cn.overleaf.com/register"  target="_blank" rel="noopener"
     >Register - Overleaf, 在线LaTeX编辑器</a></p>
 <p><img src="/p/latex_001/Snipaste_2025-10-16_15-30-29.png"
@@ -1017,7 +1024,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
 		data-flex-basis="393px"
 	
 ></p>
-<h3 id="vscode-和-githubgitee-结合的合作编辑">VSCode 和 Github/gitee 结合的合作编辑
+<h3 id="vscode-的latex配置">VSCode 的LaTeX配置
 </h3><h4 id="vscode-的latex环境配置">VScode 的Latex环境配置
 </h4><p>​	由于自带的texworks年代久远UI难看直接排除，overleaf很不错但是由于文件存储在云而非本地总有些不安心，并且由于一系列原因使用overleaf编辑latex的用户越来越多，频繁出现崩了的情况，本地编辑器使用起来更让人放心。相较于texstudio，vscode的UI和代码块高亮更加清晰，而且可以更方便的使用git管理论文的tex代码。</p>
 <blockquote class="alert alert-warn">
@@ -1564,8 +1571,20 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>这样，我们就配置好了VScode环境。</p>
-<h4 id="vscode与github结合">VScode与github结合。
-</h4><p>首先，一名成员创建了一个Github仓库。</p>
+<h4 id="vscode的github仓库提交">VsCode的Github仓库提交
+</h4><blockquote class="alert alert-note">
+  
+  <div class="alert-header">
+    
+      <span class="icon"></span>
+      <strong>Note</strong>
+    
+  </div>
+  
+  <div class="alert-content">
+    <p>本文可以作为代码提交github仓库的教程。</p>
+  </div>
+</blockquote><p>首先，一名成员创建了一个Github仓库。</p>
 <p><img src="/p/latex_001/github.png"
 	width="1213"
 	height="1288"
@@ -1762,8 +1781,8 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
 ></p>
 <p>这样，成员每次提交都是创建了一个新的分支，需要创建者从pull request确认后提交。</p>
 <p>具体确认教程与后面附录内容类似。</p>
-<h3 id="附录">附录
-</h3><h4 id="github的contibutor">GitHub的contibutor
+<h3 id="github附录">Github附录
+</h3><h4 id="github的贡献者">GitHub的贡献者
 </h4><p>如果我们没有被邀请来修改这个仓库，但我们浏览过程中发现的仓库中的错误，我们可以采取以下方法解决问题。</p>
 <p>1.我们不能直接在原仓库上修改。我们需要把仓库fork为自己的仓库做修改。</p>
 <p>2.修改完毕后，我们从自己的仓库中添加pull request 向原始仓库提交修改申请（如图）</p>
@@ -2146,7 +2165,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.22207a4f4c1eeac12f198687da04041ca6ce19430b320e223c222efa7547a861.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -2217,7 +2236,7 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。</
         cursor: pointer;
         width: 30px;
         height: 30px;
-        background-image: url('http://localhost:1313/icons/backTop.svg');
+        background-image: url('https://frp-bus.com:25849/icons/backTop.svg');
     }
 </style>
 
