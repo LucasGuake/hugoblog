@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>指针 on GiteCD</title>
+        <link>https://frp-bus.com:25849/categories/%E6%8C%87%E9%92%88/</link>
+        <description>Recent content in 指针 on GiteCD</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>GiteCD</copyright>
+        <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/categories/%E6%8C%87%E9%92%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>C语言学习DLC_指针及延申</title>
+        <link>https://frp-bus.com:25849/p/c_extra002/</link>
+        <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://frp-bus.com:25849/p/c_extra002/</guid>
+        <description>&lt;img src="https://frp-bus.com:25849/p/c_extra002/background.png" alt="Featured image of post C语言学习DLC_指针及延申" /&gt;&lt;h2 id=&#34;第一章-指针与数组&#34;&gt;第一章 指针与数组
+&lt;/h2&gt;&lt;h3 id=&#34;指针数组与数组指针&#34;&gt;指针数组与数组指针
+&lt;/h3&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Note&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;我们通过以下知识点来回顾&lt;kbd&gt;指针数组&lt;/kbd&gt;和&lt;kbd&gt;数组指针&lt;/kbd&gt;的知识(arr先和[]结合后和*结合)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;ol&gt;
+&lt;li&gt;&lt;kbd&gt;int arr[5];&lt;/kbd&gt; 数组。&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;int *parr1[10];&lt;/kbd&gt; 指针数组。是个存放指针的数组。&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;int (*parr2)[10];&lt;/kbd&gt; 数组指针。指向一个数组的指针。&lt;/li&gt;
+&lt;li&gt;&lt;kbd&gt;int (*parr3[10])[5];&lt;/kbd&gt; 数组指针数组。存放数组指针的数组。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Tip&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;对于&lt;kbd&gt;int (*parr3[10])[5];&lt;/kbd&gt; 数组指针数组。&lt;/p&gt;
+&lt;p&gt;首先他是&lt;kbd&gt;int (*名称)[5];&lt;/kbd&gt; 即一个数组指针。而名称是一个parr3[10]的数组。意为存放&lt;strong&gt;数组指针&lt;/strong&gt;的&lt;strong&gt;数组&lt;/strong&gt;。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;h3 id=&#34;指针数组与数组指针的传参&#34;&gt;指针数组与数组指针的传参
+&lt;/h3&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Note&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;对于函数传参，可以指针传参也可以用形参实参。数组名代表首元素地址。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;kbd&gt;int arr[5];&lt;/kbd&gt;  test(arr)传参&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✔️ void test(int arr[]); 形参实参&lt;/p&gt;
+&lt;p&gt;✔️ void test(int arr[5])&lt;/p&gt;
+&lt;p&gt;✔️ void test(int *arr)  指针&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;kbd&gt;int &lt;em&gt;arr2[5];&lt;/kbd&gt;  test2 (arr2)传参       &lt;em&gt;arr[5]是个指针数组，名称代表首元素地址&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✔️ void test2(int *arr[]); 形参实参&lt;/p&gt;
+&lt;p&gt;✔️ void test2(int **arr)二级指针&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;kbd&gt; int arr3[5][5]; &lt;/kbd&gt;  test3 (arr3)传参       arr3[5][5]是个指针数组，名称代表首行地址，即一个一维数组地址&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❌ void test2(int *arr); 不能指向一维数组&lt;/p&gt;
+&lt;p&gt;❌ void test2(int *arr[5]); 指针数组&lt;/p&gt;
+&lt;p&gt;✔️ void test2(int (*arr)[5]);数组指针&lt;/p&gt;
+&lt;p&gt;❌ void test2(int **arr); 二级指针，指向一级指针。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;各类指针及数组的赋值&#34;&gt;各类指针及数组的赋值
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;指针： int* a,*b,*c;&lt;/p&gt;
+&lt;p&gt;二级指针: int **d = &amp;amp;a;&lt;/p&gt;
+&lt;p&gt;数组：int arr[10];&lt;/p&gt;
+&lt;p&gt;指针数组：int *parr[3] = {a,b,c}; （一个数组，存放的是指针）&lt;/p&gt;
+&lt;p&gt;数组指针: int (*parr2)[10] = &amp;amp;arr; （一个指向数组的指针）&lt;/p&gt;
+&lt;p&gt;二级数组指针： int* (*parr3)[3] = &amp;amp;parr; (一个指向指针数组的指针)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+  
+  &lt;div class=&#34;alert-header&#34;&gt;
+    
+      &lt;span class=&#34;icon&#34;&gt;&lt;/span&gt;
+      &lt;strong&gt;Tip&lt;/strong&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;alert-content&#34;&gt;
+    &lt;p&gt;对于二级数组指针： int* (*parr3)[3] = &amp;amp;parr;&lt;/p&gt;
+&lt;p&gt;他是 int* (*)[3]，即一个指向int* [3]类型的指针。类似同理。&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/blockquote&gt;&lt;h3 id=&#34;函数的形参实参与指针传参&#34;&gt;函数的形参实参与指针传参
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;int *a;&lt;/p&gt;
+&lt;p&gt;test(a);&amp;mdash;&amp;mdash;-&amp;gt; void test(int *a); 传同类型的实参与形参。&lt;/p&gt;
+&lt;p&gt;test(&amp;amp;a);&amp;mdash;&amp;mdash;&amp;gt;void test(int **a); 指针传参，传的是地址，用二级指针接收。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;类似的，对于这种情况函数也就存在两种调用法，即使遇到复杂的情况也不例外。例如：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;int* a,*b,*c;&lt;/p&gt;
+&lt;p&gt;int *parr[3] = {a,b,c};&lt;/p&gt;
+&lt;p&gt;test(parr)&amp;mdash;&amp;mdash;-&amp;gt;void test(int *parr[3]); 形参实参&lt;/p&gt;
+&lt;p&gt;test(&amp;amp;parr)&amp;mdash;&amp;ndash;&amp;gt;void test(int* (*parr2)[3]); 传地址用指针接收&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;我们发现，传指针时和赋值逻辑相似，都是把地址传给一个指针。而多数情况下，函数更经常使用传地址的方法。&lt;/p&gt;
+&lt;h2 id=&#34;第二章-函数指针与数组&#34;&gt;第二章 函数指针与数组
+&lt;/h2&gt;&lt;h3 id=&#34;函数指针&#34;&gt;函数指针
+&lt;/h3&gt;&lt;p&gt;我们定义 &lt;strong&gt;int test(int a,char b);&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过**pritnf(&amp;quot;%p\n&amp;quot;,test);&lt;strong&gt;和&lt;/strong&gt;pritnf(&amp;quot;%p\n&amp;quot;,&amp;amp;test);**发现函数存在地址，并且函数名就是地址。&lt;/p&gt;
+&lt;p&gt;那末，就可以存在一个指针指向该函数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;kbd&gt;int (*pf)(int,char) = test;&lt;/kbd&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;此时，pf就是一个指向函数的指针。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;函数调用：（*pf）(3,a);&lt;/strong&gt; 可以实现和test(3,a);一样的效果。&lt;/p&gt;
+&lt;p&gt;但以下场景下可以发挥其作用。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;void calc(int (*pf)(int, int))
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    int x = 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    int y = 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    int ret = 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    printf(&amp;#34;请输入2个操作数:&amp;gt;&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    scanf(&amp;#34;%d %d&amp;#34;, &amp;amp;x, &amp;amp;y);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ret = pf(x, y);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    printf(&amp;#34;%d\n&amp;#34;, ret);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;} 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这样，该函数调用另一个函数时，我们把另一个函数名字传递给它，便可指定它调用哪个函数&lt;/p&gt;
+&lt;h3 id=&#34;函数指针数组&#34;&gt;函数指针数组
+&lt;/h3&gt;&lt;p&gt;既然存在函数指针，那末也就存在函数指针数组。&lt;/p&gt;
+&lt;p&gt;假如我们写一个计算器，实现加(ADD)减(SUB)乘(MUL)除(DIV)功能(具体函数已省去)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;int (*pf1)(int,int) = ADD;&lt;/p&gt;
+&lt;p&gt;int (*pf2)(int,int) = SUB;&lt;/p&gt;
+&lt;p&gt;int (*pf3)(int,int) = MUL;&lt;/p&gt;
+&lt;p&gt;int (*pf4)(int,int) = DIV;&lt;/p&gt;
+&lt;p&gt;int (*arr[4])(int,int) = {pf1,pf2,pf3,pf4};&lt;/p&gt;
+&lt;p&gt;也可以直接写int (*arr[4])(int,int) = {ADD,SUB,MUL,DIV};&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;同理，它的调用&lt;/p&gt;
+&lt;p&gt;arr[0](4,8)就是ADD(4,8)的效果&lt;/p&gt;
+&lt;h3 id=&#34;指向函数指针数组的指针&#34;&gt;指向函数指针数组的指针
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;我们已有：&lt;/p&gt;
+&lt;p&gt;int (*arr[4])(int,int) = {ADD,SUB,MUL,DIV};&lt;/p&gt;
+&lt;p&gt;从原有基础上，int (*arr[4])(int,int)，将arr改为（*arr）便成为了指针；&lt;/p&gt;
+&lt;p&gt;&lt;kbd&gt;int (*(*arr2)[4])(int,int) = &amp;amp;arr&lt;/kbd&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然，还存在&lt;strong&gt;指向函数指针数组的指针的数组&lt;/strong&gt;，其逻辑与前面的数组与指针逻辑类似。它的使用并不复杂，注重写法便可效仿，我们不再赘述。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;到这，我们就大体将指针的复杂类别总结完毕。&lt;/p&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料
+&lt;/h2&gt;&lt;p&gt;[1] &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Vm4y1r7jY?spm_id_from=333.788.videopod.episodes&amp;amp;vd_source=532bed43cdfa864d73fc480519be7b42&amp;amp;p=109&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;C语言鹏哥.  【C语言进阶】指针进阶， P109-P110，  2023-03-27&lt;/a&gt; &lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
