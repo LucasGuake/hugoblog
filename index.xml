@@ -2669,6 +2669,11 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;更新了关于C语言指针的文章。发现美化的图标丢失bug。发现部分图标仍然静态无放大动画的bug&lt;/td&gt;
+          &lt;td&gt;2026-1-18&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;1.添加菜单效果。  2.添加了标题高亮效果。  3.使用wline搭建了评论区。  4.引入赞赏支持按钮。  5.删除另外的导航网页。&lt;/td&gt;
           &lt;td&gt;2025-8-25&lt;/td&gt;
           &lt;td&gt;&lt;/td&gt;
