@@ -2669,7 +2669,12 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;更新了关于C语言指针的文章。发现美化的图标丢失bug。发现部分图标仍然静态无放大动画的bug&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;修复了图标丢失bug，增加了新的动画效果&lt;/td&gt;
+          &lt;td&gt;2026-1-19&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;更新了关于C语言指针的文章&lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_extra002/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_指针及延申&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;。发现美化的图标丢失bug。发现部分图标仍然静态无放大动画的bug&lt;/td&gt;
           &lt;td&gt;2026-1-18&lt;/td&gt;
           &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
