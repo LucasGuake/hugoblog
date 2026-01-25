@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on GiteCD</title>
-        <link>https://frp-bus.com:25849/page/</link>
+        <link>https://hugoblog.ligecm.cn/page/</link>
         <description>Recent content in Pages on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugoblog.ligecm.cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档 | Archives</title>
-        <link>https://frp-bus.com:25849/archives/</link>
+        <link>https://hugoblog.ligecm.cn/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/archives/</guid>
+        <guid>https://hugoblog.ligecm.cn/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>更新日志 | Logs</title>
-        <link>https://frp-bus.com:25849/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-logs/</link>
+        <link>https://hugoblog.ligecm.cn/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-logs/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-logs/</guid>
+        <guid>https://hugoblog.ligecm.cn/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-logs/</guid>
         <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -31,7 +31,7 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;更新了新的文章&lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_extra003/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_函数传参&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; 完成了近期的文章计划&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;更新了新的文章&lt;a class=&#34;link&#34; href=&#34;https://hugoblog.ligecm.cn/p/c_extra003/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_函数传参&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; 完成了近期的文章计划&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2026-1-19&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
@@ -41,7 +41,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;更新了关于C语言指针的文章&lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_extra002/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_指针及延申&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;。发现美化的图标丢失bug。发现部分图标仍然静态无放大动画的bug&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;更新了关于C语言指针的文章&lt;a class=&#34;link&#34; href=&#34;https://hugoblog.ligecm.cn/p/c_extra002/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_指针及延申&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;。发现美化的图标丢失bug。发现部分图标仍然静态无放大动画的bug&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2026-1-18&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
@@ -51,7 +51,7 @@
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;更新了 &lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_main001/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习初阶_数组&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_extra001/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_函数递归&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/u&gt;  文章&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;更新了 &lt;a class=&#34;link&#34; href=&#34;https://hugoblog.ligecm.cn/p/c_main001/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习初阶_数组&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt; 和 &lt;a class=&#34;link&#34; href=&#34;https://hugoblog.ligecm.cn/p/c_extra001/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_函数递归&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/u&gt;  文章&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;2025-8-12&lt;/td&gt;
           &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
       &lt;/tr&gt;
@@ -87,10 +87,10 @@
         </item>
         <item>
         <title>技术链接 | LIST</title>
-        <link>https://frp-bus.com:25849/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5-list/</link>
+        <link>https://hugoblog.ligecm.cn/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5-list/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5-list/</guid>
+        <guid>https://hugoblog.ligecm.cn/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5-list/</guid>
         <description>&lt;div style=&#34;text-align: center; padding: 2rem;&#34;&gt;
   &lt;!-- 修改 font-size 为更大的值，比如 4rem --&gt;
   &lt;h5 id=&#34;typewriter&#34; style=&#34;font-size: 4rem; line-height: 1.6;&#34;&gt;&lt;/h5&gt;
@@ -111,10 +111,10 @@ typing();
         </item>
         <item>
         <title>搜索 | Search</title>
-        <link>https://frp-bus.com:25849/search/</link>
+        <link>https://hugoblog.ligecm.cn/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/search/</guid>
+        <guid>https://hugoblog.ligecm.cn/search/</guid>
         <description></description>
         </item>
         

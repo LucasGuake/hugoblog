@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>LaTeX on GiteCD</title>
-        <link>https://frp-bus.com:25849/categories/latex/</link>
+        <link>https://hugoblog.ligecm.cn/categories/latex/</link>
         <description>Recent content in LaTeX on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/categories/latex/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hugoblog.ligecm.cn/categories/latex/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LaTeX的合作编写：VSCode和Github的联合使用</title>
-        <link>https://frp-bus.com:25849/p/latex_001/</link>
+        <link>https://hugoblog.ligecm.cn/p/latex_001/</link>
         <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/p/latex_001/</guid>
-        <description>&lt;img src="https://frp-bus.com:25849/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写以及github仓库的提交&#34;&gt;LaTeX的合作编写以及Github仓库的提交
+        <guid>https://hugoblog.ligecm.cn/p/latex_001/</guid>
+        <description>&lt;img src="https://hugoblog.ligecm.cn/p/latex_001/background.png" alt="Featured image of post LaTeX的合作编写：VSCode和Github的联合使用" /&gt;&lt;h1 id=&#34;latex的合作编写以及github仓库的提交&#34;&gt;LaTeX的合作编写以及Github仓库的提交
 &lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;本文将展示一下内容&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -92,10 +92,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/h2&gt;&lt;p&gt;​	本地编辑虽然有较高安全性，不易丢失等优点。但是，LaTeX写作是需要多人合作来完成的。如果成员不能在一起，那末，在线协作就成为了一个选择。&lt;/p&gt;
 &lt;p&gt;​	首先，我们来进行Overleaf的注册。&lt;a class=&#34;link&#34; href=&#34;https://cn.overleaf.com/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Register - Overleaf, 在线LaTeX编辑器&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-30-29.png&#34;
 	width=&#34;1584&#34;
 	height=&#34;995&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_dd8bb852fd9028be.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_ad78409895373d9d.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_dd8bb852fd9028be.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-30-29_hu_ad78409895373d9d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过大学注册&#34;
@@ -106,10 +106,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;382px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
+&lt;p&gt;注册完后，我们的项目就可以共享给他人（邮箱分享或者链接分享）&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-43-56.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_b7ce7a63563b7d6f.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_199ef8b33ee7861a.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_b7ce7a63563b7d6f.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-43-56_hu_199ef8b33ee7861a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分享&#34;
@@ -120,10 +120,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-13.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_5bd1732a93c9959d.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_d82212e84c9e2b7f.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_5bd1732a93c9959d.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-13_hu_d82212e84c9e2b7f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片&#34;
@@ -134,10 +134,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
+&lt;p&gt;同时，也可以进行版本回退。&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-48.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_951f101e861d851d.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_aa1293636784304f.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_951f101e861d851d.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-44-48_hu_aa1293636784304f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-44-48&#34;
@@ -148,10 +148,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;393px&#34;
 	
 &gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-45-21.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;1370&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bb5c3d8fcb72e04.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_30f87ec0e460f2ac.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_7bb5c3d8fcb72e04.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-45-21_hu_30f87ec0e460f2ac.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Snipaste_2025-10-16_15-45-21&#34;
@@ -195,10 +195,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     &gt;【清华镜像】&lt;/a&gt; |&lt;a class=&#34;link&#34; href=&#34;https://mirrors.cernet.edu.cn/app/TeX%e6%8e%92%e7%89%88%e7%b3%bb%e7%bb%9f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【联合镜像】&lt;/a&gt;&lt;/p&gt;
   &lt;/div&gt;
-&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
+&lt;/blockquote&gt;&lt;p&gt;安装完后，在VScode搜索 &lt;kbd&gt;LaTeX  Workshop&lt;/kbd&gt;  并安装&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-53-18.png&#34;
 	width=&#34;2546&#34;
 	height=&#34;1522&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_540120f24cf4efab.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_4b6ffa581e423408.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_540120f24cf4efab.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-53-18_hu_4b6ffa581e423408.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;LaTeX Workshop&#34;
@@ -210,10 +210,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后我们要对它进行配置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-55-16.png&#34;
 	width=&#34;1293&#34;
 	height=&#34;1431&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c151770892e23bec.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_da8ba09ecbb341f4.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_c151770892e23bec.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-55-16_hu_da8ba09ecbb341f4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;打开配置文件&#34;
@@ -225,10 +225,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;
 &lt;img src=&#34;Snipaste_2025-10-16_15-55-52.png&#34; alt=&#34;Snipaste_2025-10-16_15-55-52&#34; style=&#34;zoom:50%;&#34; /&gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-56-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_303bceaee8dd3a04.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_13d0ff4be2b6bd09.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_303bceaee8dd3a04.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_15-56-01_hu_13d0ff4be2b6bd09.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;替换后&#34;
@@ -723,10 +723,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
     &lt;p&gt;本文可以作为代码提交github仓库的教程。&lt;/p&gt;
   &lt;/div&gt;
 &lt;/blockquote&gt;&lt;p&gt;首先，一名成员创建了一个Github仓库。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/github.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/github.png&#34;
 	width=&#34;1213&#34;
 	height=&#34;1288&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/github_hu_26748d8323cdd1a0.png 480w, https://frp-bus.com:25849/p/latex_001/github_hu_d1f949d82d21b465.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/github_hu_26748d8323cdd1a0.png 480w, https://hugoblog.ligecm.cn/p/latex_001/github_hu_d1f949d82d21b465.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;建立GitHub仓库&#34;
@@ -737,10 +737,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;226px&#34;
 	
 &gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/lianjie1.png&#34;
 	width=&#34;1711&#34;
 	height=&#34;828&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/lianjie1_hu_dc7f979cee595bd4.png 480w, https://frp-bus.com:25849/p/latex_001/lianjie1_hu_8a147dd5121c5dd8.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/lianjie1_hu_dc7f979cee595bd4.png 480w, https://hugoblog.ligecm.cn/p/latex_001/lianjie1_hu_8a147dd5121c5dd8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;远程连接&#34;
@@ -752,10 +752,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后 创建人 就可以直接提交内容了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-19.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_62a550e6fe93fe8f.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_ff78a789196460e0.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_62a550e6fe93fe8f.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-19_hu_ff78a789196460e0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;链接远程仓库&#34;
@@ -766,10 +766,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-38.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_a1ab0fd717a71ba1.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_23cbcd66a74e1dcb.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_a1ab0fd717a71ba1.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-06-38_hu_23cbcd66a74e1dcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;输入仓库链接&#34;
@@ -780,10 +780,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-01.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_755eebd888b43d30.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_f8c4f0a9bcc86354.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_755eebd888b43d30.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-01_hu_f8c4f0a9bcc86354.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送&#34;
@@ -794,10 +794,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;
-&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
+&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-06.png&#34;
 	width=&#34;1743&#34;
 	height=&#34;995&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_e42b5b5a9df141e4.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_931203526e399f7b.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_e42b5b5a9df141e4.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-08-06_hu_931203526e399f7b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;推送成功&#34;
@@ -810,10 +810,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &gt;&lt;/p&gt;
 &lt;p&gt;接下来就要添加合作人了。&lt;/p&gt;
 &lt;p&gt;创建人要邀请成员。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-00.png&#34;
 	width=&#34;1511&#34;
 	height=&#34;1096&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_86a8d9ba86a09a1a.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_3c68fabf68c6dc11.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_86a8d9ba86a09a1a.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-00_hu_3c68fabf68c6dc11.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;选择邀请合作人&#34;
@@ -823,10 +823,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-grow=&#34;137&#34;
 		data-flex-basis=&#34;330px&#34;
 	
-&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
+&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-05.png&#34;
 	width=&#34;1761&#34;
 	height=&#34;1082&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_85f0979d39cbed19.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_dc08f2dd5fe6a9e2.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_85f0979d39cbed19.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-05_hu_dc08f2dd5fe6a9e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;发送邀请&#34;
@@ -838,10 +838,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后成员同意邀请。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-45.png&#34;
 	width=&#34;2256&#34;
 	height=&#34;1378&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_17fb2f641fe8c946.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_4a869e0865a6305d.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_17fb2f641fe8c946.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-45_hu_4a869e0865a6305d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;成员界面&#34;
@@ -852,10 +852,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;392px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-52.png&#34;
 	width=&#34;2249&#34;
 	height=&#34;660&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_379dd1b5616af9b7.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_aa29c975748bc432.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_379dd1b5616af9b7.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-11-52_hu_aa29c975748bc432.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;同意邀请&#34;
@@ -869,10 +869,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;p&gt;添加成功后，成员就可以在这个仓库上随意提交了。&lt;/p&gt;
 &lt;p&gt;当然，有些创建者不希望成员随意更改，而是再自己检阅之后再提交。&lt;/p&gt;
 &lt;p&gt;这里我们可以为提交设置规则。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-04.png&#34;
 	width=&#34;1437&#34;
 	height=&#34;724&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_23859fbecd3f557.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_32e162fc715ed429.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_23859fbecd3f557.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-04_hu_32e162fc715ed429.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -881,10 +881,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;476px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-25.png&#34;
 	width=&#34;787&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_b9faad5c24a85578.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_c38dcdce9c44e750.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_b9faad5c24a85578.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-25_hu_c38dcdce9c44e750.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -893,10 +893,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;495px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-54.png&#34;
 	width=&#34;1243&#34;
 	height=&#34;421&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_8d990e45ba542403.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1ba73127ae1b5f8f.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_8d990e45ba542403.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-45-54_hu_1ba73127ae1b5f8f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -905,10 +905,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;708px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-25.png&#34;
 	width=&#34;1153&#34;
 	height=&#34;602&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_872435bff3f8f55c.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_4d275c551f4fe39f.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_872435bff3f8f55c.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-25_hu_4d275c551f4fe39f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -924,10 +924,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 &lt;/h4&gt;&lt;p&gt;如果我们没有被邀请来修改这个仓库，但我们浏览过程中发现的仓库中的错误，我们可以采取以下方法解决问题。&lt;/p&gt;
 &lt;p&gt;1.我们不能直接在原仓库上修改。我们需要把仓库fork为自己的仓库做修改。&lt;/p&gt;
 &lt;p&gt;2.修改完毕后，我们从自己的仓库中添加pull request 向原始仓库提交修改申请（如图）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-41.png&#34;
 	width=&#34;1632&#34;
 	height=&#34;262&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_9293199a961b5d34.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_aef8bc145ca85efb.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_9293199a961b5d34.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-46-41_hu_aef8bc145ca85efb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;提交修改&#34;
@@ -938,10 +938,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;1494px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
+&lt;p&gt;3.接到申请后，作者可以查阅你对仓库文件做的修改。若无误，他可以合并分支，通过你的修改。&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-47-54.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;1253&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_cc364c82b339110a.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_42e950c2ba020e42.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_cc364c82b339110a.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-47-54_hu_42e950c2ba020e42.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;通过修改&#34;
@@ -953,10 +953,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;仓库的回退&#34;&gt;仓库的回退。
-&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
+&lt;/h4&gt;&lt;p&gt;像overleaf的历史一样，提交错了，github也可以进行回退，如下图。&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-19-12.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1528&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_e21facbbe8360f07.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_e1e14cc79b624e18.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_e21facbbe8360f07.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-19-12_hu_e1e14cc79b624e18.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;复制提交ID&#34;
@@ -967,10 +967,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;402px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-52-45.png&#34;
 	width=&#34;2370&#34;
 	height=&#34;1491&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_8be6a3c9f6fa6e5c.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_20920991bd3cba4f.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_8be6a3c9f6fa6e5c.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-52-45_hu_20920991bd3cba4f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;终端回退&#34;
@@ -981,10 +981,10 @@ MikTeX文件较小，需联网下载宏包。网络不太稳定的不推荐。&l
 		data-flex-basis=&#34;381px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-55-58.png&#34;
 	width=&#34;384&#34;
 	height=&#34;156&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_910f26385c5e4650.png 480w, https://frp-bus.com:25849/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_339aa88837d18d96.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_910f26385c5e4650.png 480w, https://hugoblog.ligecm.cn/p/latex_001/Snipaste_2025-10-16_16-55-58_hu_339aa88837d18d96.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;回退成功&#34;

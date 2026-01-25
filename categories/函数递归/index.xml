@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>函数递归 on GiteCD</title>
-        <link>https://frp-bus.com:25849/categories/%E5%87%BD%E6%95%B0%E9%80%92%E5%BD%92/</link>
+        <link>https://hugoblog.ligecm.cn/categories/%E5%87%BD%E6%95%B0%E9%80%92%E5%BD%92/</link>
         <description>Recent content in 函数递归 on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/categories/%E5%87%BD%E6%95%B0%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hugoblog.ligecm.cn/categories/%E5%87%BD%E6%95%B0%E9%80%92%E5%BD%92/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C语言学习DLC_函数递归</title>
-        <link>https://frp-bus.com:25849/p/c_extra001/</link>
+        <link>https://hugoblog.ligecm.cn/p/c_extra001/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/p/c_extra001/</guid>
-        <description>&lt;img src="https://frp-bus.com:25849/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+        <guid>https://hugoblog.ligecm.cn/p/c_extra001/</guid>
+        <description>&lt;img src="https://hugoblog.ligecm.cn/p/c_extra001/background.png" alt="Featured image of post C语言学习DLC_函数递归" /&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
   
   &lt;div class=&#34;alert-header&#34;&gt;
     
@@ -50,10 +50,10 @@
     style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
   &gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_j6QZv2sL6y.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;497&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y_hu_557e12aa9647e8a1.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_j6QZv2sL6y_hu_864c17d7013ced30.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_j6QZv2sL6y_hu_557e12aa9647e8a1.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/msedge_j6QZv2sL6y_hu_864c17d7013ced30.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;递归思想图解&#34;
@@ -66,10 +66,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;c语言描述&#34;&gt;C语言描述
 &lt;/h3&gt;&lt;p&gt;我们分别将起始杆，中转杆，目标杆命名为pos1,pos2,pos3，用n代表初始杆上的盘子数目，初始化为1。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/devenv_Y4sO6ryomN.png&#34;
 	width=&#34;1170&#34;
 	height=&#34;162&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN_hu_5a02bedbd7b1e221.png 480w, https://frp-bus.com:25849/p/c_extra001/devenv_Y4sO6ryomN_hu_37c9144ae11de67d.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/devenv_Y4sO6ryomN_hu_5a02bedbd7b1e221.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/devenv_Y4sO6ryomN_hu_37c9144ae11de67d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义move函数来打印移动方法，此处pos1,pos2仅表示起点和终点&#34;
@@ -80,10 +80,10 @@
 		data-flex-basis=&#34;1733px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/devenv_cP7i2JDiSw.png&#34;
 	width=&#34;1395&#34;
 	height=&#34;411&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw_hu_3918aeb84ede7e35.png 480w, https://frp-bus.com:25849/p/c_extra001/devenv_cP7i2JDiSw_hu_24a97c0027e6201.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/devenv_cP7i2JDiSw_hu_3918aeb84ede7e35.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/devenv_cP7i2JDiSw_hu_24a97c0027e6201.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;定义Hanoi函数来将n-1个移动到pos2上。并将pos1上最后一个移动到pos3上&#34;
@@ -94,10 +94,10 @@
 		data-flex-basis=&#34;814px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/WindowsTerminal_djyHOsXJLO.png&#34;
 	width=&#34;1730&#34;
 	height=&#34;319&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_a4134807d3b0a4ac.png 480w, https://frp-bus.com:25849/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_c337ef01df385397.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_a4134807d3b0a4ac.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/WindowsTerminal_djyHOsXJLO_hu_c337ef01df385397.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;以n=3为例运行结果&#34;
@@ -175,10 +175,10 @@
 &lt;/div&gt;&lt;h2 id=&#34;青蛙跳台阶问题的分析与解决&#34;&gt;青蛙跳台阶问题的分析与解决。
 &lt;/h2&gt;&lt;h3 id=&#34;青蛙跳台阶问题分析&#34;&gt;青蛙跳台阶问题分析
 &lt;/h3&gt;&lt;h4 id=&#34;青蛙跳台阶问题条件&#34;&gt;青蛙跳台阶问题条件
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f.png&#34;
 	width=&#34;372&#34;
 	height=&#34;348&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_f04b26498c52596e.png 480w, https://frp-bus.com:25849/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_44e579d785a651d6.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_f04b26498c52596e.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/905ab9a6fa2c7858eb31ff058ce1512f_hu_44e579d785a651d6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;共n个台阶,1次跳一个或者两个，求有几种跳法&#34;
@@ -190,10 +190,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;青蛙跳台阶问题分析-1&#34;&gt;青蛙跳台阶问题分析
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_eULSS8he8w.png&#34;
 	width=&#34;461&#34;
 	height=&#34;120&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w_hu_6688776514914fbb.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_eULSS8he8w_hu_203e2a2c87dc2050.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_eULSS8he8w_hu_6688776514914fbb.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/msedge_eULSS8he8w_hu_203e2a2c87dc2050.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;其情况为斐波那契数列&#34;
@@ -213,10 +213,10 @@
 &lt;p&gt;我们不管它前面怎么跳，我们让它跳到n-1台阶上，一步跳到b级上。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_yIpsiXlY8Q.png&#34;
 	width=&#34;446&#34;
 	height=&#34;205&#34;
-	srcset=&#34;https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q_hu_e86994e0fe28e2ec.png 480w, https://frp-bus.com:25849/p/c_extra001/msedge_yIpsiXlY8Q_hu_35efb4794c5aa3e6.png 1024w&#34;
+	srcset=&#34;https://hugoblog.ligecm.cn/p/c_extra001/msedge_yIpsiXlY8Q_hu_e86994e0fe28e2ec.png 480w, https://hugoblog.ligecm.cn/p/c_extra001/msedge_yIpsiXlY8Q_hu_35efb4794c5aa3e6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分析结果如图&#34;

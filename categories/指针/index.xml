@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>指针 on GiteCD</title>
-        <link>https://frp-bus.com:25849/categories/%E6%8C%87%E9%92%88/</link>
+        <link>https://hugoblog.ligecm.cn/categories/%E6%8C%87%E9%92%88/</link>
         <description>Recent content in 指针 on GiteCD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>GiteCD</copyright>
-        <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://frp-bus.com:25849/categories/%E6%8C%87%E9%92%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hugoblog.ligecm.cn/categories/%E6%8C%87%E9%92%88/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C语言学习DLC_函数传参</title>
-        <link>https://frp-bus.com:25849/p/c_extra003/</link>
+        <link>https://hugoblog.ligecm.cn/p/c_extra003/</link>
         <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/p/c_extra003/</guid>
-        <description>&lt;img src="https://frp-bus.com:25849/p/c_extra003/background.png" alt="Featured image of post C语言学习DLC_函数传参" /&gt;&lt;h2 id=&#34;第一章-介绍&#34;&gt;第一章 介绍
-&lt;/h2&gt;&lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://frp-bus.com:25849/p/c_extra002/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_指针及延申&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;的函数的形参实参与指针传参中我们已经为本文留下了悬念。&lt;/p&gt;
+        <guid>https://hugoblog.ligecm.cn/p/c_extra003/</guid>
+        <description>&lt;img src="https://hugoblog.ligecm.cn/p/c_extra003/background.png" alt="Featured image of post C语言学习DLC_函数传参" /&gt;&lt;h2 id=&#34;第一章-介绍&#34;&gt;第一章 介绍
+&lt;/h2&gt;&lt;p&gt;在&lt;a class=&#34;link&#34; href=&#34;https://hugoblog.ligecm.cn/p/c_extra002/&#34; &gt;&lt;strong&gt;&lt;u&gt;&amp;lt;C语言学习DLC_指针及延申&amp;gt;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;的函数的形参实参与指针传参中我们已经为本文留下了悬念。&lt;/p&gt;
 &lt;p&gt;对于函数传参有两种方式，下面我们来一一介绍。&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-note&#34;&gt;
   
@@ -628,11 +628,11 @@
         </item>
         <item>
         <title>C语言学习DLC_指针及延申</title>
-        <link>https://frp-bus.com:25849/p/c_extra002/</link>
+        <link>https://hugoblog.ligecm.cn/p/c_extra002/</link>
         <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://frp-bus.com:25849/p/c_extra002/</guid>
-        <description>&lt;img src="https://frp-bus.com:25849/p/c_extra002/background.png" alt="Featured image of post C语言学习DLC_指针及延申" /&gt;&lt;h2 id=&#34;第一章-指针与数组&#34;&gt;第一章 指针与数组
+        <guid>https://hugoblog.ligecm.cn/p/c_extra002/</guid>
+        <description>&lt;img src="https://hugoblog.ligecm.cn/p/c_extra002/background.png" alt="Featured image of post C语言学习DLC_指针及延申" /&gt;&lt;h2 id=&#34;第一章-指针与数组&#34;&gt;第一章 指针与数组
 &lt;/h2&gt;&lt;h3 id=&#34;指针数组与数组指针&#34;&gt;指针数组与数组指针
 &lt;/h3&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
   
